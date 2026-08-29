@@ -1,0 +1,6071 @@
+{
+  "meta": {
+    "reportTitle": "SolarHub Employment Report",
+    "reportVersion": "1.0",
+    "submissionDate": "2026-07-31",
+    "workPackage": "WP1",
+    "grantNumber": "101086110",
+    "employeeFieldwork": [
+      "2026-03-04",
+      "2026-06-02"
+    ],
+    "employerFieldwork": [
+      "2026-03-04",
+      "2026-07-13"
+    ],
+    "employeeN": 44,
+    "employerN": 20,
+    "employeeCollected": 48,
+    "employerCollected": 23,
+    "employeePilotExcluded": 4,
+    "employerPilotExcluded": 3,
+    "employerSelfCompleted": 16,
+    "employerInterviewed": 7
+  },
+  "questions": [
+    {
+      "id": "age",
+      "dataset": "employee",
+      "labelEn": "Age group",
+      "labelTr": "Yaşınız:",
+      "shortLabel": "Age group",
+      "type": "single",
+      "options": [
+        {
+          "value": "18_24",
+          "labelEn": "18–24",
+          "labelTr": "18 – 24",
+          "order": 1
+        },
+        {
+          "value": "25_34",
+          "labelEn": "25–34",
+          "labelTr": "25 – 34",
+          "order": 2
+        },
+        {
+          "value": "35_44",
+          "labelEn": "35–44",
+          "labelTr": "35 – 44",
+          "order": 3
+        },
+        {
+          "value": "45_54",
+          "labelEn": "45–54",
+          "labelTr": "45 – 54",
+          "order": 4
+        },
+        {
+          "value": "55_plus",
+          "labelEn": "55+",
+          "labelTr": "55 ve üzeri",
+          "order": 5
+        }
+      ],
+      "dimension": "Profile",
+      "n": 44
+    },
+    {
+      "id": "gender",
+      "dataset": "employee",
+      "labelEn": "Gender",
+      "labelTr": "Cinsiyetiniz:",
+      "shortLabel": "Gender",
+      "type": "single",
+      "options": [
+        {
+          "value": "male",
+          "labelEn": "Male",
+          "labelTr": "Erkek",
+          "order": 1
+        },
+        {
+          "value": "female",
+          "labelEn": "Female",
+          "labelTr": "Kadın",
+          "order": 2
+        },
+        {
+          "value": "prefer_not_say",
+          "labelEn": "Prefer not to say",
+          "labelTr": "Belirtmek istemiyorum.",
+          "order": 3
+        }
+      ],
+      "dimension": "Profile",
+      "n": 44
+    },
+    {
+      "id": "experience",
+      "dataset": "employee",
+      "labelEn": "Total experience in the solar sector",
+      "labelTr": "Güneş enerjisi sektöründeki toplam iş deneyiminiz:",
+      "shortLabel": "Experience",
+      "type": "single",
+      "options": [
+        {
+          "value": "1_3",
+          "labelEn": "1–3 yr",
+          "labelTr": "1 – 3 yıl",
+          "order": 1
+        },
+        {
+          "value": "3_5",
+          "labelEn": "3–5 yr",
+          "labelTr": "3 – 5 yıl",
+          "order": 2
+        },
+        {
+          "value": "5_10",
+          "labelEn": "5–10 yr",
+          "labelTr": "5 – 10 yıl",
+          "order": 3
+        },
+        {
+          "value": "10_plus",
+          "labelEn": "10+ yr",
+          "labelTr": "10 yıl üzeri",
+          "order": 4
+        }
+      ],
+      "dimension": "Profile",
+      "n": 44
+    },
+    {
+      "id": "activity_field",
+      "dataset": "employee",
+      "labelEn": "Main field of activity",
+      "labelTr": "Şu an sektörün hangi ana faaliyet alanında çalışmaktasınız? (Birden fazla alan varsa en çok zaman ayırdığınızı seçiniz):",
+      "shortLabel": "Field of activity",
+      "type": "single",
+      "options": [
+        {
+          "value": "cell_panel_manufacturing",
+          "labelEn": "Cell and panel manufacturing",
+          "labelTr": "Hücre ve Panel Üretimi",
+          "order": 1
+        },
+        {
+          "value": "installation_om",
+          "labelEn": "Installation, contracting, construction, O&M",
+          "labelTr": "Kurulum, Taahhüt, İnşaat, İşletme, Bakım ve Onarım",
+          "order": 2
+        },
+        {
+          "value": "rd_activities",
+          "labelEn": "R&D activities",
+          "labelTr": "Araştırma ve Geliştirme Faaliyetleri",
+          "order": 3
+        },
+        {
+          "value": "engineering_consultancy",
+          "labelEn": "Engineering and technical consultancy",
+          "labelTr": "Mühendislik ve Teknik Müşavirlik",
+          "order": 4
+        },
+        {
+          "value": "project_development",
+          "labelEn": "Project development and consulting",
+          "labelTr": "Proje Geliştirme ve Danışmanlık",
+          "order": 5
+        },
+        {
+          "value": "plant_services",
+          "labelEn": "Solar plant service provision",
+          "labelTr": "Güneş Santrali Hizmet Sağlayıcısı (temizlik, güvenlik, vb)",
+          "order": 6
+        },
+        {
+          "value": "inspection_certification",
+          "labelEn": "Inspection, testing and certification",
+          "labelTr": "Denetim, Test ve Belgelendirme",
+          "order": 7
+        },
+        {
+          "value": "component_manufacturing",
+          "labelEn": "System component manufacturing",
+          "labelTr": "Güneş Santrali Sistem Bileşeni Üretimi (evirici, konstrüksiyon, kablolama, vb.)",
+          "order": 8
+        },
+        {
+          "value": "solar_thermal",
+          "labelEn": "Solar thermal system services",
+          "labelTr": "Güneş Isıl Sistem Hizmetler",
+          "order": 9
+        }
+      ],
+      "dimension": "Profile",
+      "n": 44
+    },
+    {
+      "id": "company_size",
+      "dataset": "employee",
+      "labelEn": "Company headcount",
+      "labelTr": "Çalıştığınız firmanın toplam personel sayısı nedir?",
+      "shortLabel": "Company size",
+      "type": "single",
+      "options": [
+        {
+          "value": "1_9",
+          "labelEn": "1–9",
+          "labelTr": "1 – 9",
+          "order": 1
+        },
+        {
+          "value": "10_49",
+          "labelEn": "10–49",
+          "labelTr": "10 – 49",
+          "order": 2
+        },
+        {
+          "value": "50_149",
+          "labelEn": "50–149",
+          "labelTr": "50 – 149",
+          "order": 3
+        },
+        {
+          "value": "150_299",
+          "labelEn": "150–299",
+          "labelTr": "150 – 299",
+          "order": 4
+        },
+        {
+          "value": "300_499",
+          "labelEn": "300–499",
+          "labelTr": "300 – 499",
+          "order": 5
+        },
+        {
+          "value": "500_plus",
+          "labelEn": "500+",
+          "labelTr": "500 ve üzeri",
+          "order": 6
+        }
+      ],
+      "dimension": "Profile",
+      "n": 44
+    },
+    {
+      "id": "education_level",
+      "dataset": "employee",
+      "labelEn": "Highest level of education completed",
+      "labelTr": "Tamamladığınız en yüksek eğitim seviyesini belirtiniz.",
+      "shortLabel": "Education level",
+      "type": "single",
+      "options": [
+        {
+          "value": "secondary",
+          "labelEn": "Secondary",
+          "labelTr": "Ortaöğretim",
+          "order": 1
+        },
+        {
+          "value": "technical_high_school",
+          "labelEn": "Technical or vocational high school",
+          "labelTr": "Teknik Lise/ Endüstri Meslek Lisesi",
+          "order": 2
+        },
+        {
+          "value": "bachelors",
+          "labelEn": "Bachelor's",
+          "labelTr": "Lisans",
+          "order": 3
+        },
+        {
+          "value": "masters",
+          "labelEn": "Master's",
+          "labelTr": "Lisansüstü",
+          "order": 4
+        },
+        {
+          "value": "doctorate",
+          "labelEn": "Doctorate",
+          "labelTr": "Doktora",
+          "order": 5
+        }
+      ],
+      "dimension": "Profile",
+      "n": 44
+    },
+    {
+      "id": "certificates",
+      "dataset": "employee",
+      "labelEn": "Professional certificates held",
+      "labelTr": "Halihazırda sahip olduğunuz mesleki sertifikalar nelerdir? (Birden fazla seçilebilir)",
+      "shortLabel": "Certificates held",
+      "type": "multi",
+      "options": [
+        {
+          "value": "ohs",
+          "labelEn": "OHS certificates",
+          "labelTr": "İş Sağlığı ve Güvenliği (İSG) Sertifikaları",
+          "order": 1
+        },
+        {
+          "value": "none",
+          "labelEn": "No certificate",
+          "labelTr": "Sertifikam bulunmuyor.",
+          "order": 2
+        },
+        {
+          "value": "manufacturer_training",
+          "labelEn": "Manufacturer-focused technical training",
+          "labelTr": "Üretici Odaklı Teknik Eğitim Sertifikaları",
+          "order": 3
+        },
+        {
+          "value": "master_craftsman",
+          "labelEn": "Master craftsman certificate",
+          "labelTr": "Ustalık Belgesi",
+          "order": 4
+        },
+        {
+          "value": "vqa_pv",
+          "labelEn": "VQA photovoltaic power systems personnel",
+          "labelTr": "MYK (Mesleki Yeterlilik Kurumu) Fotovoltaik Güç Sistemleri Personeli",
+          "order": 5
+        },
+        {
+          "value": "vqa_thermal",
+          "labelEn": "VQA solar thermal system personnel",
+          "labelTr": "(MYK) Güneş Isıl Sistem Personeli",
+          "order": 6
+        },
+        {
+          "value": "ekat",
+          "labelEn": "High voltage (EKAT) certificate",
+          "labelTr": "Yüksek Gerilim / EKAT Belgesi",
+          "order": 7
+        },
+        {
+          "value": "soft_skill",
+          "labelEn": "Soft-skill training",
+          "labelTr": "Soft Skill eğitim sertifikaları",
+          "order": 8
+        },
+        {
+          "value": "engineering_diploma",
+          "labelEn": "Engineering diploma",
+          "labelTr": "Mühendislik diploması",
+          "order": 9
+        }
+      ],
+      "dimension": "Competence",
+      "n": 44,
+      "notes": "Multi-select with free-text artefacts: \"na\", trailing commas and unlisted course names are quarantined in _other; \"Engineering diploma\" is kept as a distinct low-count category (§3.3)."
+    },
+    {
+      "id": "education_role_match",
+      "dataset": "employee",
+      "labelEn": "My education relates directly to my current role",
+      "labelTr": "Okuduğum okullarda aldığım eğitim şu an yürüttüğüm görevle doğrudan ilişkilidir.",
+      "shortLabel": "Education–role match",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Competence",
+      "n": 44
+    },
+    {
+      "id": "certificate_value",
+      "dataset": "employee",
+      "labelEn": "My certificates improve my work quality and OHS awareness",
+      "labelTr": "Sahip olduğum mesleki sertifikalar (MYK vb.), yaptığım işin kalitesine ve iş güvenliği farkındalığıma olumlu katkı sağlıyor.",
+      "shortLabel": "Certificate value",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Competence",
+      "n": 35,
+      "notes": "Only 35 of 44 answered — non-certificate-holders skipped it. The denominator for this item is 35, not 44 (§3.3)."
+    },
+    {
+      "id": "training_support",
+      "dataset": "employee",
+      "labelEn": "My company gives sufficient training support for new technologies",
+      "labelTr": "İşimdeki yenilikleri ve yeni teknolojileri öğrenebilmem için şirketim bana yeterli eğitim desteği veriyor.",
+      "shortLabel": "Training support",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Conditions",
+      "n": 44
+    },
+    {
+      "id": "pay_fairness",
+      "dataset": "employee",
+      "labelEn": "My pay and bonuses match the difficulty and responsibility of my job",
+      "labelTr": "Yaptığım işin zorluğuna, sorumluluğuma ve tecrübeme göre, aldığım maaş ve primlerin yeterli olduğunu düşünüyorum.",
+      "shortLabel": "Pay fairness",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Pay",
+      "n": 44
+    },
+    {
+      "id": "rights_compliance",
+      "dataset": "employee",
+      "labelEn": "My employer complies with overtime, holiday pay and leave rights",
+      "labelTr": "Çalıştığım şirket fazla mesai ve resmî tatil ödemesi veya izin kullanımı konularında çalışan haklarına uygun davranıyor.",
+      "shortLabel": "Rights compliance",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Pay",
+      "n": 44
+    },
+    {
+      "id": "field_allowances",
+      "dataset": "employee",
+      "labelEn": "I am satisfied with accommodation, travel and per-diem on assignments",
+      "labelTr": "Şehir dışı görevlerde sunulan konaklama, ulaşım ve harcırah imkanlarının kalite ve miktarından memnunum.",
+      "shortLabel": "Field allowances",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Pay",
+      "n": 44
+    },
+    {
+      "id": "confidence_self",
+      "dataset": "employee",
+      "labelEn": "My technical knowledge means I have no unemployment concern",
+      "labelTr": "Mevcut teknik bilgi ve tecrübem sayesinde işsiz kalma endişem yoktur.",
+      "shortLabel": "Confidence: self",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Security",
+      "n": 44
+    },
+    {
+      "id": "confidence_employer",
+      "dataset": "employee",
+      "labelEn": "My company's market position means I have no unemployment concern",
+      "labelTr": "Şirketinizin piyasadaki durumu ve proje alma potansiyeli sayesinde işsiz kalma endişem yoktur.",
+      "shortLabel": "Confidence: employer",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Security",
+      "n": 44
+    },
+    {
+      "id": "clean_energy_satisfaction",
+      "dataset": "employee",
+      "labelEn": "Working for a clean future adds significantly to my job satisfaction",
+      "labelTr": "Güneş enerjisi gibi temiz geleceğe hizmet eden bir sektörde çalışmak iş memnuniyetime önemli ölçüde katkı sağlıyor.",
+      "shortLabel": "Clean-energy purpose",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Satisfaction",
+      "n": 44
+    },
+    {
+      "id": "work_life_balance",
+      "dataset": "employee",
+      "labelEn": "Seasonal peaks and field work harm my work–life balance",
+      "labelTr": "Mevsimsel yoğunluklar ve saha çalışmaları, işimle özel hayatım arasındaki dengeyi olumsuz etkiliyor.",
+      "shortLabel": "Work–life balance",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Satisfaction",
+      "n": 44
+    },
+    {
+      "id": "confidence_sector",
+      "dataset": "employee",
+      "labelEn": "The Turkish solar sector will grow steadily and is a secure long-term career",
+      "labelTr": "Türkiye’deki güneş enerjisi sektörünün önümüzdeki 10 yıl içinde istikrarlı bir şekilde büyüyeceğine ve uzun vadeli bir kariyer için güvenli bir alan olduğunda inanıyorum.",
+      "shortLabel": "Confidence: sector",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Security",
+      "n": 44
+    },
+    {
+      "id": "mobility_willingness",
+      "dataset": "employee",
+      "labelEn": "I have no reservations about assignments in other locations",
+      "labelTr": "Projeler kapsamında farklı konumlarda (şehir dışı/yurt dışı) görev alma konusunda çekincem yoktur.",
+      "shortLabel": "Mobility willingness",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Satisfaction",
+      "n": 44
+    },
+    {
+      "id": "development_intent",
+      "dataset": "employee",
+      "labelEn": "I plan training or certification in the next 2 years",
+      "labelTr": "Önümüzdeki 2 yıllık süreçte, mesleki yetkinliklerimi artırmaya yönelik (eğitim, sertifika vb.) girişimlerde bulunmayı planlıyorum.",
+      "shortLabel": "Development intent",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Future",
+      "n": 44
+    },
+    {
+      "id": "subcontractor_status",
+      "dataset": "employee",
+      "labelEn": "Effect of subcontractor employment on job continuity",
+      "labelTr": "Taşeron (alt yüklenici) bir firmada çalışıyor olmanızın, iş sürekliliğiniz (her zaman iş bulabilme) üzerindeki etkisi nedir?",
+      "shortLabel": "Subcontractor status",
+      "type": "single",
+      "options": [
+        {
+          "value": "permanent_staff",
+          "labelEn": "Not a subcontractor employee, permanent staff",
+          "labelTr": "Taşeron firmada çalışmıyorum, iş yerinde kadrolu olarak çalışıyorum.",
+          "order": 1
+        },
+        {
+          "value": "no_difference",
+          "labelEn": "Being a subcontractor makes no difference, work is always available",
+          "labelTr": "Hayır, taşeron olmamın bir önemi yok; işim her zaman hazır.",
+          "order": 2
+        },
+        {
+          "value": "normal_project_periods",
+          "labelEn": "I accept it as normal since I work only during project periods",
+          "labelTr": "Sadece proje dönemlerinde çalıştığım için bu durumu normal karşılıyorum.",
+          "order": 3
+        },
+        {
+          "value": "risky_dependence",
+          "labelEn": "I find continuity risky due to dependence on the main contractor",
+          "labelTr": "Ana şirketin projelerine bağlı olduğum için iş sürekliliğini riskli buluyorum.",
+          "order": 4
+        }
+      ],
+      "dimension": "Security",
+      "n": 44
+    },
+    {
+      "id": "wage_comparison",
+      "dataset": "employee",
+      "labelEn": "Solar sector pay compared with other sectors",
+      "labelTr": "Güneş enerjisi sektöründeki maaş seviyelerini; bildiğiniz veya deneyimlediğiniz diğer sektörlerle (inşaat, elektrik vb.) kıyasladığınızda nasıl buluyorsunuz?",
+      "shortLabel": "Wage comparison",
+      "type": "single",
+      "options": [
+        {
+          "value": "lower",
+          "labelEn": "Lower than other sectors",
+          "labelTr": "Diğer sektörlerden daha düşük.",
+          "order": 1
+        },
+        {
+          "value": "similar",
+          "labelEn": "Similar to other sectors",
+          "labelTr": "Diğer sektörlerle benzer seviyede.",
+          "order": 2
+        },
+        {
+          "value": "higher",
+          "labelEn": "Higher than other sectors",
+          "labelTr": "Diğer sektörlerden daha yüksek.",
+          "order": 3
+        },
+        {
+          "value": "not_informed",
+          "labelEn": "Not informed",
+          "labelTr": "Bilgi sahibi değilim",
+          "order": 4
+        }
+      ],
+      "dimension": "Pay",
+      "n": 44
+    },
+    {
+      "id": "loyalty_factor",
+      "dataset": "employee",
+      "labelEn": "Most decisive factor for a long-term career in solar",
+      "labelTr": "Güneş enerjisi sektöründeki kariyerinizi uzun vadeli sürdürmenizde aşağıdaki imkanlardan hangisi en belirleyici etkendir?",
+      "shortLabel": "Long-term career factor",
+      "type": "single",
+      "options": [
+        {
+          "value": "pay_lagging",
+          "labelEn": "Pay and benefits lagging other sectors",
+          "labelTr": "Maaş ve yan hakların diğer sektörlerin gerisinde kalması",
+          "order": 1
+        },
+        {
+          "value": "limited_development",
+          "labelEn": "Limited professional development opportunities",
+          "labelTr": "Meslekî gelişim olanaklarının kısıtlı olması",
+          "order": 2
+        },
+        {
+          "value": "fringe_benefits",
+          "labelEn": "Diversity of fringe benefits",
+          "labelTr": "Yan hakların (sağlık sigortası, yol/yemek, ikramiye vb.) çeşitliliği",
+          "order": 3
+        },
+        {
+          "value": "tech_change_concern",
+          "labelEn": "Concern about keeping pace with technological change",
+          "labelTr": "Sektördeki teknolojik değişim hızına ayak uyduramama endişesi",
+          "order": 4
+        },
+        {
+          "value": "subcontracting_uncertainty",
+          "labelEn": "Uncertainty from the subcontracting system",
+          "labelTr": "Taşeron sisteminden kaynaklı belirsizlikler",
+          "order": 5
+        },
+        {
+          "value": "no_policy_confidence",
+          "labelEn": "No confidence in sector sustainability due to policy",
+          "labelTr": "Politikalar sebebiyle sektörün sürdürülebilirliğine inancım yok",
+          "order": 6
+        }
+      ],
+      "dimension": "Future",
+      "n": 43,
+      "notes": "Single-select that returned many free-text values; everything outside the six defined options is quarantined in _other and charted only as \"Other / unclassified\" (§3.3). NOTE: 7 of the quarantined responses share the identical structured wording \"İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)\" — see REPORT.md."
+    },
+    {
+      "id": "career_plan_5y",
+      "dataset": "employee",
+      "labelEn": "Where I plan to continue my career over the next 5 years",
+      "labelTr": "Önümüzdeki 5 yıllık süreçte profesyonel kariyerinizi hangi alanda sürdürmeyi planlıyorsunuz?",
+      "shortLabel": "5-year career plan",
+      "type": "single",
+      "options": [
+        {
+          "value": "managerial",
+          "labelEn": "Stay in solar and take on managerial responsibility",
+          "labelTr": "Güneş enerjisi sektöründe kalarak, yönetimsel (ekip lideri, şef, müdür vb.) sorumluluklar üstlenmek.",
+          "order": 1
+        },
+        {
+          "value": "new_technologies",
+          "labelEn": "Stay in solar and move toward new technologies and specialisations",
+          "labelTr": "Güneş enerjisi sektöründe kalarak, yeni teknolojilere ve uzmanlık alanlarına yönelmek.",
+          "order": 2
+        },
+        {
+          "value": "current_role",
+          "labelEn": "Stay in solar and continue specialising in my current role",
+          "labelTr": "Güneş enerjisi sektöründe kalarak, mevcut rolümde uzmanlaşmaya devam etmek.",
+          "order": 3
+        },
+        {
+          "value": "leave_sector",
+          "labelEn": "Move to a different field or sector",
+          "labelTr": "Güneş enerjisi sektörü dışındaki farklı bir alana veya sektöre geçiş yapmak.",
+          "order": 4
+        }
+      ],
+      "dimension": "Future",
+      "n": 44,
+      "notes": "One respondent answered \"1 ve 3\" (two options selected) — stored as career_plan_5y_multi and flagged; one free-text geothermal answer is in _other (§3.3)."
+    },
+    {
+      "id": "main_activity_field",
+      "dataset": "employer",
+      "labelEn": "Field employing the most personnel",
+      "labelTr": "Firmanızın en çok çalışan istihdam edilen faaliyet alanını seçiniz.",
+      "shortLabel": "Main activity field",
+      "type": "single",
+      "options": [
+        {
+          "value": "cell_panel_manufacturing",
+          "labelEn": "Cell and panel manufacturing",
+          "labelTr": "Hücre ve Panel Üretimi",
+          "order": 1
+        },
+        {
+          "value": "installation_om",
+          "labelEn": "Installation, contracting, construction, O&M",
+          "labelTr": "Kurulum, Taahhüt, İnşaat, İşletme, Bakım ve Onarım",
+          "order": 2
+        },
+        {
+          "value": "rd_activities",
+          "labelEn": "R&D activities",
+          "labelTr": "Araştırma ve Geliştirme Faaliyetleri",
+          "order": 3
+        },
+        {
+          "value": "engineering_consultancy",
+          "labelEn": "Engineering and technical consultancy",
+          "labelTr": "Mühendislik ve Teknik Müşavirlik",
+          "order": 4
+        },
+        {
+          "value": "project_development",
+          "labelEn": "Project development and consulting",
+          "labelTr": "Proje Geliştirme ve Danışmanlık",
+          "order": 5
+        },
+        {
+          "value": "plant_services",
+          "labelEn": "Solar plant service provision",
+          "labelTr": "Güneş Santrali Hizmet Sağlayıcısı (temizlik, güvenlik, vb)",
+          "order": 6
+        },
+        {
+          "value": "inspection_certification",
+          "labelEn": "Inspection, testing and certification",
+          "labelTr": "Denetim, Test ve Belgelendirme",
+          "order": 7
+        },
+        {
+          "value": "component_manufacturing",
+          "labelEn": "System component manufacturing",
+          "labelTr": "Güneş Santrali Sistem Bileşeni Üretimi (evirici, konstrüksiyon, kablolama, vb.)",
+          "order": 8
+        },
+        {
+          "value": "solar_thermal",
+          "labelEn": "Solar thermal system services",
+          "labelTr": "Güneş Isıl Sistem Hizmetler",
+          "order": 9
+        },
+        {
+          "value": "software_digitalisation",
+          "labelEn": "Software and digitalisation services",
+          "labelTr": "Yazılım ve Dijitalleşme Hizmetleri",
+          "order": 10
+        },
+        {
+          "value": "plant_investor",
+          "labelEn": "Solar plant investor",
+          "labelTr": "Güneş Santralı Yatırımcısı",
+          "order": 11
+        }
+      ],
+      "dimension": "Profile",
+      "n": 20,
+      "notes": "The employer questionnaire offered two activity options absent from the BuildSpec §4 dictionary (software & digitalisation services; solar plant investor); their English labels are ETL-supplied — see REPORT.md."
+    },
+    {
+      "id": "other_activity_fields",
+      "dataset": "employer",
+      "labelEn": "Other fields of operation",
+      "labelTr": "Firmanızın faaliyet gösterdiği diğer alanları işaretleyiniz. (Birden fazla seçebilirsiniz)",
+      "shortLabel": "Other activity fields",
+      "type": "multi",
+      "options": [
+        {
+          "value": "cell_panel_manufacturing",
+          "labelEn": "Cell and panel manufacturing",
+          "labelTr": "Hücre ve Panel Üretimi",
+          "order": 1
+        },
+        {
+          "value": "installation_om",
+          "labelEn": "Installation, contracting, construction, O&M",
+          "labelTr": "Kurulum, Taahhüt, İnşaat, İşletme, Bakım ve Onarım",
+          "order": 2
+        },
+        {
+          "value": "rd_activities",
+          "labelEn": "R&D activities",
+          "labelTr": "Araştırma ve Geliştirme Faaliyetleri",
+          "order": 3
+        },
+        {
+          "value": "engineering_consultancy",
+          "labelEn": "Engineering and technical consultancy",
+          "labelTr": "Mühendislik ve Teknik Müşavirlik",
+          "order": 4
+        },
+        {
+          "value": "project_development",
+          "labelEn": "Project development and consulting",
+          "labelTr": "Proje Geliştirme ve Danışmanlık",
+          "order": 5
+        },
+        {
+          "value": "plant_services",
+          "labelEn": "Solar plant service provision",
+          "labelTr": "Güneş Santrali Hizmet Sağlayıcısı (temizlik, güvenlik, vb)",
+          "order": 6
+        },
+        {
+          "value": "inspection_certification",
+          "labelEn": "Inspection, testing and certification",
+          "labelTr": "Denetim, Test ve Belgelendirme",
+          "order": 7
+        },
+        {
+          "value": "component_manufacturing",
+          "labelEn": "System component manufacturing",
+          "labelTr": "Güneş Santrali Sistem Bileşeni Üretimi (evirici, konstrüksiyon, kablolama, vb.)",
+          "order": 8
+        },
+        {
+          "value": "solar_thermal",
+          "labelEn": "Solar thermal system services",
+          "labelTr": "Güneş Isıl Sistem Hizmetler",
+          "order": 9
+        },
+        {
+          "value": "software_digitalisation",
+          "labelEn": "Software and digitalisation services",
+          "labelTr": "Yazılım ve Dijitalleşme Hizmetleri",
+          "order": 10
+        },
+        {
+          "value": "plant_investor",
+          "labelEn": "Solar plant investor",
+          "labelTr": "Güneş Santralı Yatırımcısı",
+          "order": 11
+        }
+      ],
+      "dimension": "Profile",
+      "n": 20,
+      "notes": "Same ETL-supplied options as main_activity_field; one typed distributor/supply answer is quarantined in _other."
+    },
+    {
+      "id": "years_operating",
+      "dataset": "employer",
+      "labelEn": "Years operating in solar",
+      "labelTr": "Şirketiniz güneş enerjisi alanında kaç yıldır faaliyet gösteriyor?",
+      "shortLabel": "Years operating",
+      "type": "single",
+      "options": [
+        {
+          "value": "0_3",
+          "labelEn": "0–3 years",
+          "labelTr": "0 - 3 yıl",
+          "order": 1
+        },
+        {
+          "value": "4_7",
+          "labelEn": "4–7 years",
+          "labelTr": "4 - 7 yıl",
+          "order": 2
+        },
+        {
+          "value": "8_11",
+          "labelEn": "8–11 years",
+          "labelTr": "8 - 11 yıl",
+          "order": 3
+        },
+        {
+          "value": "12_15",
+          "labelEn": "12–15 years",
+          "labelTr": "12 - 15 yıl",
+          "order": 4
+        }
+      ],
+      "dimension": "Profile",
+      "n": 20
+    },
+    {
+      "id": "total_employees",
+      "dataset": "employer",
+      "labelEn": "Total employees",
+      "labelTr": "Şirketinizin toplam çalışan sayısı kaç kişidir?",
+      "shortLabel": "Total employees",
+      "type": "numeric",
+      "dimension": "Profile",
+      "n": 20,
+      "notes": "Free numeric text parsed to integer; banded into employee_count_band to match the employee-side company-size bands (§3.3)."
+    },
+    {
+      "id": "annual_volume",
+      "dataset": "employer",
+      "labelEn": "Approximate annual business volume",
+      "labelTr": "Seçtiğiniz ana faaliyet alanındaki yaklaşık yıllık iş hacminizi birim belirterek giriniz (örn: 500 MWp/yıl, 100.000 panel/yıl).",
+      "shortLabel": "Annual volume",
+      "type": "freetext",
+      "dimension": "Profile",
+      "n": 20,
+      "notes": "Free text with mixed units — not normalised and not charted; exposed only as a raw verbatim list in the methodology drawer (§3.3)."
+    },
+    {
+      "id": "international_share",
+      "dataset": "employer",
+      "labelEn": "Share of operations carried out abroad",
+      "labelTr": "Şirket operasyonlarınızın (kurulum, işletme, danışmanlık, vb.) yüzde kaçlık oranı çalışanlarınız tarafında yurt dışında gerçekleştirilmektedir?",
+      "shortLabel": "International share",
+      "type": "band",
+      "options": [
+        {
+          "value": "under_20",
+          "labelEn": "Under 20%",
+          "labelTr": "%20'den azı",
+          "order": 1
+        },
+        {
+          "value": "40_60",
+          "labelEn": "40–60%",
+          "labelTr": "%40 - %60 arası",
+          "order": 2
+        },
+        {
+          "value": "over_80",
+          "labelEn": "Over 80%",
+          "labelTr": "%80'den fazlası",
+          "order": 3
+        }
+      ],
+      "dimension": "Profile",
+      "n": 20
+    },
+    {
+      "id": "staff_dist_project_dev",
+      "dataset": "employer",
+      "labelEn": "Staff distribution: project development and engineering design",
+      "labelTr": "Firmanızda çalışan personelin faaliyet alanlarına göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Proje Geliştirme ve Mühendislik Tasarımı]",
+      "shortLabel": "Staff: project dev & design",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "staff_dist_install",
+      "dataset": "employer",
+      "labelEn": "Staff distribution: installation, contracting, construction and O&M",
+      "labelTr": "Firmanızda çalışan personelin faaliyet alanlarına göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Kurulum, Taahhüt, İnşaat, İşletme, Bakım ve Onarım]",
+      "shortLabel": "Staff: installation & O&M",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "staff_dist_manufacturing",
+      "dataset": "employer",
+      "labelEn": "Staff distribution: panel, cell and other production line workers",
+      "labelTr": "Firmanızda çalışan personelin faaliyet alanlarına göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Panel, Hücre ve Diğer Üretim Hatlarında Çalışanlar]",
+      "shortLabel": "Staff: production lines",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "staff_dist_admin",
+      "dataset": "employer",
+      "labelEn": "Staff distribution: administrative services",
+      "labelTr": "Firmanızda çalışan personelin faaliyet alanlarına göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [İdari Hizmetler]",
+      "shortLabel": "Staff: administration",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "staff_dist_sales",
+      "dataset": "employer",
+      "labelEn": "Staff distribution: sales services",
+      "labelTr": "Firmanızda çalışan personelin faaliyet alanlarına göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Satış Hizmetleri]",
+      "shortLabel": "Staff: sales",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "edu_dist_doctorate",
+      "dataset": "employer",
+      "labelEn": "Workforce distribution: doctorate",
+      "labelTr": "İstihdam ettiğiniz toplam iş gücünün akademik/teknik eğitim seviyesine göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Doktora]",
+      "shortLabel": "Education: doctorate",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20,
+      "notes": "Zero variance — all 20 firms answered 0–20%. Render as a single labelled statement, not a chart (§3.3)."
+    },
+    {
+      "id": "edu_dist_postgrad",
+      "dataset": "employer",
+      "labelEn": "Workforce distribution: postgraduate",
+      "labelTr": "İstihdam ettiğiniz toplam iş gücünün akademik/teknik eğitim seviyesine göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Lisansüstü]",
+      "shortLabel": "Education: postgraduate",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "edu_dist_bachelor",
+      "dataset": "employer",
+      "labelEn": "Workforce distribution: bachelor graduates",
+      "labelTr": "İstihdam ettiğiniz toplam iş gücünün akademik/teknik eğitim seviyesine göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Lisans Mezunu]",
+      "shortLabel": "Education: bachelor",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "edu_dist_associate",
+      "dataset": "employer",
+      "labelEn": "Workforce distribution: associate degree / vocational school",
+      "labelTr": "İstihdam ettiğiniz toplam iş gücünün akademik/teknik eğitim seviyesine göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Ön Lisans/ Meslek Yüksekokulu]",
+      "shortLabel": "Education: associate",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "edu_dist_secondary",
+      "dataset": "employer",
+      "labelEn": "Workforce distribution: secondary education",
+      "labelTr": "İstihdam ettiğiniz toplam iş gücünün akademik/teknik eğitim seviyesine göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [Ortaöğretim]",
+      "shortLabel": "Education: secondary",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "edu_dist_primary",
+      "dataset": "employer",
+      "labelEn": "Workforce distribution: primary education",
+      "labelTr": "İstihdam ettiğiniz toplam iş gücünün akademik/teknik eğitim seviyesine göre dağılımını yaklaşık yüzde (%) olarak belirtiniz. [İlköğretim]",
+      "shortLabel": "Education: primary",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_manager",
+      "dataset": "employer",
+      "labelEn": "Turnover: senior/middle manager and strategic planning",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Üst/Orta Düzey Yönetici ve Strateji Planlama]",
+      "shortLabel": "Turnover: managers",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_project_specialist",
+      "dataset": "employer",
+      "labelEn": "Turnover: project specialist or engineer",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Proje Uzmanı / Mühendis]",
+      "shortLabel": "Turnover: project specialists",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_rd_engineer",
+      "dataset": "employer",
+      "labelEn": "Turnover: R&D engineer",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Ar-Ge Mühendisi]",
+      "shortLabel": "Turnover: R&D engineers",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_project_technical",
+      "dataset": "employer",
+      "labelEn": "Turnover: project technical personnel",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Proje Teknik Personeli]",
+      "shortLabel": "Turnover: project technical",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_entry_engineer",
+      "dataset": "employer",
+      "labelEn": "Turnover: entry-level engineers",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Giriş Seviyesi Mühendisler]",
+      "shortLabel": "Turnover: entry-level engineers",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_technician",
+      "dataset": "employer",
+      "labelEn": "Turnover: specialist technicians and operators",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Uzman Teknisyen ve Operatörler]",
+      "shortLabel": "Turnover: technicians",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_field_worker",
+      "dataset": "employer",
+      "labelEn": "Turnover: field worker (unskilled)",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [Saha elemanı (Vasıfsız İşçi)]",
+      "shortLabel": "Turnover: field workers",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "turnover_admin",
+      "dataset": "employer",
+      "labelEn": "Turnover: administrative personnel",
+      "labelTr": "Aşağıdaki çalışan gruplarının son 3 yıl içindeki yıllık ortalama çalışan devir oranı* (turnover rate) nasıl tanımlarsınız? [İdari Personel]",
+      "shortLabel": "Turnover: administration",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_10",
+          "labelEn": "0–10%",
+          "labelTr": "%0 - 10",
+          "order": 1
+        },
+        {
+          "value": "11_20",
+          "labelEn": "11–20%",
+          "labelTr": "%11 - 20",
+          "order": 2
+        },
+        {
+          "value": "21_30",
+          "labelEn": "21–30%",
+          "labelTr": "%21 - 30",
+          "order": 3
+        },
+        {
+          "value": "31_40",
+          "labelEn": "31–40%",
+          "labelTr": "%31 - 40",
+          "order": 4
+        },
+        {
+          "value": "41_plus",
+          "labelEn": "Over 41%",
+          "labelTr": "%41'den fazla",
+          "order": 5
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "employment_type_permanent",
+      "dataset": "employer",
+      "labelEn": "Workforce by employment type: full-time / permanent",
+      "labelTr": "Toplam iş gücünüzün istihdam türüne göre yaklaşık yüzde (%) dağılımını belirtiniz [Tam Zamanlı/Kadrolu]",
+      "shortLabel": "Employment: permanent",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "employment_type_project",
+      "dataset": "employer",
+      "labelEn": "Workforce by employment type: project-based / temporary",
+      "labelTr": "Toplam iş gücünüzün istihdam türüne göre yaklaşık yüzde (%) dağılımını belirtiniz [Proje Bazlı/ Geçici]",
+      "shortLabel": "Employment: project-based",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "female_technical",
+      "dataset": "employer",
+      "labelEn": "Female employee share: technical positions",
+      "labelTr": "Şirketinizdeki kadın çalışan oranı yaklaşık olarak nedir? [Teknik Pozisyonlar]",
+      "shortLabel": "Female share: technical",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "female_management",
+      "dataset": "employer",
+      "labelEn": "Female employee share: management and administrative positions",
+      "labelTr": "Şirketinizdeki kadın çalışan oranı yaklaşık olarak nedir? [Yönetim ve İdari Pozisyonlar ]",
+      "shortLabel": "Female share: management",
+      "type": "band",
+      "options": [
+        {
+          "value": "0_20",
+          "labelEn": "0–20%",
+          "labelTr": "%0 - 20",
+          "order": 1
+        },
+        {
+          "value": "21_40",
+          "labelEn": "21–40%",
+          "labelTr": "%21 - 40",
+          "order": 2
+        },
+        {
+          "value": "41_60",
+          "labelEn": "41–60%",
+          "labelTr": "%41 - 60",
+          "order": 3
+        },
+        {
+          "value": "61_plus",
+          "labelEn": "Over 61%",
+          "labelTr": "%61'den fazla",
+          "order": 4
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "certified_performance",
+      "dataset": "employer",
+      "labelEn": "Certified personnel meet our quality and application standards",
+      "labelTr": "Mesleki yeterlilik kuruluşlarından belgelendirilmiş personelin saha performansı, şirketimizin kalite standartlarını ve uluslararası uygulama kriterlerini karşılamaktadır.",
+      "shortLabel": "Certified performance",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Skills",
+      "n": 20
+    },
+    {
+      "id": "poaching_frequency",
+      "dataset": "employer",
+      "labelEn": "Our trained staff are frequently poached by competitors",
+      "labelTr": "Yetişmiş personelimizin rakip firmalar tarafından transfer edilme sıklığı oldukça yüksektir.",
+      "shortLabel": "Poaching frequency",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Retention",
+      "n": 20
+    },
+    {
+      "id": "graduate_readiness",
+      "dataset": "employer",
+      "labelEn": "New graduates' job readiness and curriculum adequacy meet expectations",
+      "labelTr": "Yeni mezun mühendis ve teknik personel adaylarının “göreve hazır bulunuşluk” düzeyleri ile üniversite müfredatının sahadaki teknik sorunları çözmedeki yeterliliği firmamızın beklentilerini karşılamaktadır.",
+      "shortLabel": "Graduate readiness",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Skills",
+      "n": 20
+    },
+    {
+      "id": "regulatory_complexity",
+      "dataset": "employer",
+      "labelEn": "Regulatory complexity harms our long-term HR strategy",
+      "labelTr": "Ülkemizdeki mevzuatın karmaşıklığı firmamızın uzun vadeli istihdam ve insan kaynağı stratejilerini olumsuz etkilemektedir.",
+      "shortLabel": "Regulatory complexity",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Challenges",
+      "n": 20
+    },
+    {
+      "id": "outflow_other_sectors",
+      "dataset": "employer",
+      "labelEn": "Our trained staff move out of solar to other sectors at a high rate",
+      "labelTr": "Yetişmiş teknik personelimizin güneş enerjisi sektörü dışındaki alanlara (yazılım, inşaat, otomotiv vb.) geçiş yapma oranı yüksektir.",
+      "shortLabel": "Outflow to other sectors",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Retention",
+      "n": 20
+    },
+    {
+      "id": "field_fatigue",
+      "dataset": "employer",
+      "labelEn": "Regional imbalance and seasonality create field fatigue we struggle to prevent",
+      "labelTr": "Projelerimizin bölgesel dağılımındaki dengesizliklerin ve mevsimsel iş yoğunluğunun yarattığı “saha yorgunluğunu” önlemek adına rotasyon veya ek dinlenme süreleri gibi somut politikalar uygulamaktayız.",
+      "shortLabel": "Field fatigue",
+      "type": "likert5",
+      "options": [
+        {
+          "value": "1",
+          "labelEn": "Strongly disagree",
+          "labelTr": "1 - Kesinlikle katılmıyorum",
+          "order": 1
+        },
+        {
+          "value": "2",
+          "labelEn": "Disagree",
+          "labelTr": "2 - Katılmıyorum",
+          "order": 2
+        },
+        {
+          "value": "3",
+          "labelEn": "Neutral",
+          "labelTr": "3 - Kararsızım",
+          "order": 3
+        },
+        {
+          "value": "4",
+          "labelEn": "Agree",
+          "labelTr": "4 - Katılıyorum",
+          "order": 4
+        },
+        {
+          "value": "5",
+          "labelEn": "Strongly agree",
+          "labelTr": "5 - Kesinlikle katılıyorum",
+          "order": 5
+        }
+      ],
+      "dimension": "Challenges",
+      "n": 20
+    },
+    {
+      "id": "hardest_role",
+      "dataset": "employer",
+      "labelEn": "Position group hardest to fill with qualified candidates",
+      "labelTr": "Aşağıdaki pozisyon gruplarından hangisinde nitelikli aday bulmakta en fazla zorluk yaşamaktasınız?",
+      "shortLabel": "Hardest role to fill",
+      "type": "single",
+      "options": [
+        {
+          "value": "manager_strategic",
+          "labelEn": "Senior/middle manager and strategic planning",
+          "labelTr": "Üst/Orta Düzey Yönetici ve Strateji Planlama",
+          "order": 1
+        },
+        {
+          "value": "technician_operator",
+          "labelEn": "Specialist technicians and operators",
+          "labelTr": "Uzman Teknisyen ve Operatörler",
+          "order": 2
+        },
+        {
+          "value": "project_specialist",
+          "labelEn": "Project specialist or engineer",
+          "labelTr": "Proje Uzmanı / Mühendis",
+          "order": 3
+        },
+        {
+          "value": "project_technical",
+          "labelEn": "Project technical personnel",
+          "labelTr": "Proje Teknik Personeli",
+          "order": 4
+        },
+        {
+          "value": "rd_engineer",
+          "labelEn": "R&D engineer",
+          "labelTr": "Ar-Ge Mühendisi",
+          "order": 5
+        },
+        {
+          "value": "field_worker",
+          "labelEn": "Field worker (unskilled)",
+          "labelTr": "Saha elemanı (Vasıfsız İşçi)",
+          "order": 6
+        }
+      ],
+      "dimension": "Challenges",
+      "n": 20
+    },
+    {
+      "id": "recruitment_barriers",
+      "dataset": "employer",
+      "labelEn": "Top 3 barriers in technical recruitment",
+      "labelTr": "Teknik personel alım süreçlerinde karşılaştığınız en önemli 3 engel aşağıdakilerden hangisidir?",
+      "shortLabel": "Recruitment barriers",
+      "type": "multi",
+      "options": [
+        {
+          "value": "pay_expectations",
+          "labelEn": "Pay and benefit expectations",
+          "labelTr": "Ücret ve Yan Hak Beklentileri",
+          "order": 1
+        },
+        {
+          "value": "technical_competence",
+          "labelEn": "Insufficient technical competence",
+          "labelTr": "Teknik Yetkinlik Yetersizliği",
+          "order": 2
+        },
+        {
+          "value": "geographic",
+          "labelEn": "Geographic location difficulties",
+          "labelTr": "Coğrafi Lokasyon Zorlukları",
+          "order": 3
+        },
+        {
+          "value": "field_reluctance",
+          "labelEn": "Reluctance to do field work",
+          "labelTr": "Saha çalışmasına isteksizlik",
+          "order": 4
+        },
+        {
+          "value": "language",
+          "labelEn": "Communication and language barrier",
+          "labelTr": "İletişim ve Dil Bariyeri",
+          "order": 5
+        }
+      ],
+      "dimension": "Challenges",
+      "n": 20
+    },
+    {
+      "id": "volume_headcount_relation",
+      "dataset": "employer",
+      "labelEn": "Relationship between business volume and headcount over 3 years",
+      "labelTr": "Son 3 yıl içerisinde firmanızın iş hacmindeki değişim ile personel sayınızdaki değişim arasındaki ilişkiyi en iyi hangisi tanımlar?",
+      "shortLabel": "Volume vs headcount",
+      "type": "single",
+      "options": [
+        {
+          "value": "rose_together",
+          "labelEn": "Volume and headcount rose together",
+          "labelTr": "İş hacmi ve personel sayısı birlikte arttı.",
+          "order": 1
+        },
+        {
+          "value": "volume_rose_headcount_flat_fell",
+          "labelEn": "Volume rose, headcount flat or fell",
+          "labelTr": "İş hacmi arttı, personel sayısı sabit kaldı / azaldı.",
+          "order": 2
+        },
+        {
+          "value": "flat_flat_rose",
+          "labelEn": "Volume flat, headcount flat or rose",
+          "labelTr": "İş hacmi sabit kaldı, personel sayısı sabit kaldı / arttı.",
+          "order": 3
+        },
+        {
+          "value": "flat_fell",
+          "labelEn": "Volume flat, headcount fell",
+          "labelTr": "İş hacmi sabit kaldı, personel sayısı azaldı.",
+          "order": 4
+        },
+        {
+          "value": "fell_flat_rose",
+          "labelEn": "Volume fell, headcount flat or rose",
+          "labelTr": "İş hacmi azaldı, personel sayısı sabit kaldı / arttı.",
+          "order": 5
+        },
+        {
+          "value": "fell_together",
+          "labelEn": "Volume and headcount fell together",
+          "labelTr": "İş hacmi ve personel sayısı birlikte azaldı.",
+          "order": 6
+        }
+      ],
+      "dimension": "Composition",
+      "n": 20
+    },
+    {
+      "id": "training_hours",
+      "dataset": "employer",
+      "labelEn": "Annual in-house training hours per employee",
+      "labelTr": "Personelinize yönelik kurum içi mesleki ve teknik eğitim programı uygulamalarında çalışan başına düşen yıllık ortalama eğitim süresini belirtiniz?",
+      "shortLabel": "Training hours",
+      "type": "single",
+      "options": [
+        {
+          "value": "0_16",
+          "labelEn": "0–16 h",
+          "labelTr": "0-16 saat arası",
+          "order": 1
+        },
+        {
+          "value": "17_40",
+          "labelEn": "17–40 h",
+          "labelTr": "17-40 saat arası",
+          "order": 2
+        },
+        {
+          "value": "41_80",
+          "labelEn": "41–80 h",
+          "labelTr": "41-80 saat arası",
+          "order": 3
+        },
+        {
+          "value": "81_plus",
+          "labelEn": "81+ h",
+          "labelTr": "81 saat ve üzeri",
+          "order": 4
+        },
+        {
+          "value": "none",
+          "labelEn": "No in-house programme",
+          "labelTr": "Kurum içi eğitim programı uygulanmıyor",
+          "order": 5
+        }
+      ],
+      "dimension": "Skills",
+      "n": 20
+    },
+    {
+      "id": "academia_collaboration",
+      "dataset": "employer",
+      "labelEn": "Most effective collaboration model with education institutions",
+      "labelTr": "Firmanızın beceri açığını kapatmak adına eğitim ve akademik kurumlarla yürüttüğü iş birliği modellerinden hangisi en yüksek verimliliği sağlamaktadır?",
+      "shortLabel": "Academia collaboration",
+      "type": "single",
+      "options": [
+        {
+          "value": "internship_programmes",
+          "labelEn": "Long-term internship and candidate engineer programmes",
+          "labelTr": "Uzun dönemli staj ve aday mühendis programları",
+          "order": 1
+        },
+        {
+          "value": "mone_iskur",
+          "labelEn": "MoNE apprenticeship, intern and İŞKUR programmes",
+          "labelTr": "MEB çıraklık eğitimi, stajyer ve İŞKUR programları",
+          "order": 2
+        },
+        {
+          "value": "kosgeb_iskur",
+          "labelEn": "KOSGEB and İŞKUR institutional programmes",
+          "labelTr": "KOSGEB, İŞKUR gibi kurumların uyguladığı programlar",
+          "order": 3
+        },
+        {
+          "value": "guaranteed_employment",
+          "labelEn": "Training with guaranteed post-graduation employment",
+          "labelTr": "Mezuniyet sonrası doğrudan istihdam garantili eğitimler",
+          "order": 4
+        },
+        {
+          "value": "commercial_courses",
+          "labelEn": "Commercial courses",
+          "labelTr": "Ticari nitelikli kurslar",
+          "order": 5
+        },
+        {
+          "value": "none",
+          "labelEn": "No collaboration",
+          "labelTr": "Herhangi bir iş birliği yapılmıyor.",
+          "order": 6
+        }
+      ],
+      "dimension": "Skills",
+      "n": 20,
+      "notes": "The MoNE option was observed only as an interviewer-typed ALL-CAPS entry; it is matched case-insensitively."
+    },
+    {
+      "id": "resignation_reason",
+      "dataset": "employer",
+      "labelEn": "Dominant reason given by resigning staff",
+      "labelTr": "İstifa eden personelin sunduğu temel gerekçeler arasında en baskın olanı hangisidir?",
+      "shortLabel": "Resignation reason",
+      "type": "single",
+      "options": [
+        {
+          "value": "higher_pay",
+          "labelEn": "Higher pay and benefit offers from other firms",
+          "labelTr": "Başka firmalardan gelen daha yüksek ücret ve yan hak teklifleri",
+          "order": 1
+        },
+        {
+          "value": "dissatisfaction",
+          "labelEn": "Dissatisfaction with conditions, culture or management",
+          "labelTr": "Mevcut çalışma koşulları, kurum kültürü veya yönetimsel süreçlerden duyulan memnuniyetsizlik",
+          "order": 2
+        },
+        {
+          "value": "work_life_balance",
+          "labelEn": "Work–life balance problems caused by field work",
+          "labelTr": "Saha çalışmalarının yarattığı iş-yaşam dengesi sorunları",
+          "order": 3
+        },
+        {
+          "value": "career_uncertainty",
+          "labelEn": "Uncertainty about internal career progression",
+          "labelTr": "Şirket içindeki kariyer ilerleme imkanlarının belirsizliği",
+          "order": 4
+        },
+        {
+          "value": "sector_change",
+          "labelEn": "Desire to move to a different sector",
+          "labelTr": "Farklı bir sektöre geçiş yapma isteği",
+          "order": 5
+        }
+      ],
+      "dimension": "Retention",
+      "n": 20
+    },
+    {
+      "id": "retention_methods",
+      "dataset": "employer",
+      "labelEn": "Most effective methods used to increase retention",
+      "labelTr": "Çalışan bağlılığını arttırmak için şirketinizde kullanılan en etkili yöntemleri seçiniz?",
+      "shortLabel": "Retention methods",
+      "type": "multi",
+      "options": [
+        {
+          "value": "salary_bonus",
+          "labelEn": "Competitive salary and bonus systems",
+          "labelTr": "Rekabetçi maaş ve prim sistemleri",
+          "order": 1
+        },
+        {
+          "value": "career_development",
+          "labelEn": "Career development and continuous learning",
+          "labelTr": "Kariyer gelişimi ve sürekli öğrenme",
+          "order": 2
+        },
+        {
+          "value": "flexible_working",
+          "labelEn": "Flexible working models",
+          "labelTr": "Esnek çalışma modelleri ve iş-yaşam dengesi",
+          "order": 3
+        },
+        {
+          "value": "insurance_support",
+          "labelEn": "Private or supplementary health insurance, meal and transport support",
+          "labelTr": "Özel/tamamlayıcı sağlık sigortası, yemek/ulaşım desteği vb.",
+          "order": 4
+        },
+        {
+          "value": "company_culture",
+          "labelEn": "Strong company culture and social bonds",
+          "labelTr": "Güçlü şirket kültürü ve sosyal bağlar",
+          "order": 5
+        }
+      ],
+      "dimension": "Retention",
+      "n": 20,
+      "notes": "Two respondents selected \"İşin anlamı ve sosyal etki\" (meaning of work and social impact), which is not among the five §4 options; it is quarantined in _other — see REPORT.md."
+    },
+    {
+      "id": "growth_tech_areas",
+      "dataset": "employer",
+      "labelEn": "Areas expected to drive employment toward 2035",
+      "labelTr": "Türkiye'nin 2035 hedefleri doğrultusunda sektörün giderek olgunlaşmasıyla birlikte, önümüzdeki yıllar içinde istihdamın hangi alanlarda yoğunlaşacağını düşünüyorsunuz?",
+      "shortLabel": "2035 growth areas",
+      "type": "multi",
+      "options": [
+        {
+          "value": "energy_storage",
+          "labelEn": "Energy storage",
+          "labelTr": "Enerji Depolama",
+          "order": 1
+        },
+        {
+          "value": "smart_grid",
+          "labelEn": "Smart grid solutions",
+          "labelTr": "Akıllı şebeke Çözümleri",
+          "order": 2
+        },
+        {
+          "value": "end_of_life",
+          "labelEn": "Panel end-of-life management",
+          "labelTr": "Panel Ömür Sonu Yönetimi",
+          "order": 3
+        },
+        {
+          "value": "manufacturing",
+          "labelEn": "Panel, cell or equipment manufacturing",
+          "labelTr": "Panel, Hücre veya Ekipman Üretimi",
+          "order": 4
+        },
+        {
+          "value": "data_digitalisation",
+          "labelEn": "Data management and digitalisation",
+          "labelTr": "Veri Yönetimi ve Dijitalleşme",
+          "order": 5
+        },
+        {
+          "value": "project_engineering",
+          "labelEn": "Project development and engineering design",
+          "labelTr": "Proje Geliştirme ve Mühendislik Tasarımı",
+          "order": 6
+        },
+        {
+          "value": "installation_om",
+          "labelEn": "Installation, contracting, construction and O&M",
+          "labelTr": "Kurulum, Taahhüt, İnşaat, İşletme, Bakım ve Onarım",
+          "order": 7
+        },
+        {
+          "value": "sales",
+          "labelEn": "Sales services",
+          "labelTr": "Satış Hizmetleri",
+          "order": 8
+        }
+      ],
+      "dimension": "Future",
+      "n": 20
+    },
+    {
+      "id": "employment_change_2y",
+      "dataset": "employer",
+      "labelEn": "Expected change in employment volume over 2 years",
+      "labelTr": "Önümüzdeki 2 yılda, firmanızın mevcut istihdam hacminde öngördüğünüz değişim oranı nedir?",
+      "shortLabel": "2-year employment change",
+      "type": "single",
+      "options": [
+        {
+          "value": "increase_over_25",
+          "labelEn": "Increase over 25%",
+          "labelTr": "%25'ten fazla artış",
+          "order": 1
+        },
+        {
+          "value": "increase_0_25",
+          "labelEn": "Increase 0–25%",
+          "labelTr": "%0-25 arasında artış",
+          "order": 2
+        },
+        {
+          "value": "stable",
+          "labelEn": "Stable",
+          "labelTr": "Sabit",
+          "order": 3
+        },
+        {
+          "value": "decrease_0_25",
+          "labelEn": "Decrease 0–25%",
+          "labelTr": "%0-25 arasında azalma",
+          "order": 4
+        },
+        {
+          "value": "decrease_over_25",
+          "labelEn": "Decrease over 25%",
+          "labelTr": "%25'ten fazla azalma",
+          "order": 5
+        }
+      ],
+      "dimension": "Future",
+      "n": 20
+    },
+    {
+      "id": "employment_change_drivers",
+      "dataset": "employer",
+      "labelEn": "Top 3 factors behind that expectation",
+      "labelTr": "Önümüzdeki 2 yıllık süreçteki istihdam değişim öngörünüzü etkileyen en önemli 3 faktörü seçiniz.",
+      "shortLabel": "Employment change drivers",
+      "type": "multi",
+      "options": [
+        {
+          "value": "investment_speed",
+          "labelEn": "Changes in investment speed and capacity",
+          "labelTr": "Yatırım Hızında ve Kapasitede Değişiklikler",
+          "order": 1
+        },
+        {
+          "value": "storage_new_tech",
+          "labelEn": "Storage and other new technologies",
+          "labelTr": "Depolama ve Diğer Yeni Teknolojiler",
+          "order": 2
+        },
+        {
+          "value": "regulatory",
+          "labelEn": "Regulatory changes",
+          "labelTr": "Mevzuat Değişiklikleri",
+          "order": 3
+        },
+        {
+          "value": "domestic_production",
+          "labelEn": "Domestic production focus",
+          "labelTr": "Yerli Üretim Odaklılı",
+          "order": 4
+        },
+        {
+          "value": "rd_focus",
+          "labelEn": "R&D focus",
+          "labelTr": "Ar-Ge Odaklılık",
+          "order": 5
+        },
+        {
+          "value": "om_requirements",
+          "labelEn": "Operation and maintenance requirements",
+          "labelTr": "İşletme ve Bakım Gereklilikleri",
+          "order": 6
+        }
+      ],
+      "dimension": "Future",
+      "n": 20,
+      "notes": "The O&M-requirements option was never selected (0 of 20). Five respondents entered \"Teşvikler\" (incentives), which is not among the six §4 options and is quarantined in _other — see REPORT.md."
+    }
+  ],
+  "employees": [
+    {
+      "id": "E01",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "1_3",
+      "activity_field": "rd_activities",
+      "company_size": "1_9",
+      "education_level": "masters",
+      "certificates": [],
+      "education_role_match": 1,
+      "certificate_value": 3,
+      "training_support": 3,
+      "pay_fairness": 3,
+      "rights_compliance": 3,
+      "field_allowances": 3,
+      "wage_comparison": "not_informed",
+      "confidence_self": 3,
+      "confidence_employer": 3,
+      "confidence_sector": 4,
+      "subcontractor_status": "normal_project_periods",
+      "clean_energy_satisfaction": 3,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "subcontracting_uncertainty",
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "certificates",
+          "valueTr": "na"
+        }
+      ],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "misaligned",
+      "seniority": "early",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E02",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "plant_services",
+      "company_size": "10_49",
+      "education_level": "masters",
+      "certificates": [
+        "ohs",
+        "manufacturer_training"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "not_informed",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "no_difference",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş Güvenliği Uygulamalarının Her gün Daha da Benimsenmesi"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E03",
+      "age": "55_plus",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "engineering_consultancy",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "ohs",
+        "manufacturer_training"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 4,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "limited_development",
+      "career_plan_5y": null,
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "career_plan_5y",
+          "valueTr": "Jeotermal enerji çalışmalarına hız vereceğim."
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "senior",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E04",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "installation_om",
+      "company_size": "10_49",
+      "education_level": "bachelors",
+      "certificates": [
+        "vqa_pv"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 4,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 4,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "senior",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E05",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "engineering_consultancy",
+      "company_size": "10_49",
+      "education_level": "masters",
+      "certificates": [
+        "ohs",
+        "manufacturer_training"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 3,
+      "training_support": 4,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 4,
+      "confidence_employer": 4,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 4,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E06",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "vqa_pv",
+        "vqa_thermal",
+        "ohs",
+        "master_craftsman"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 4,
+      "training_support": 4,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 2,
+      "mobility_willingness": 5,
+      "development_intent": 4,
+      "loyalty_factor": "fringe_benefits",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E07",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 3,
+      "training_support": 4,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "similar",
+      "confidence_self": 4,
+      "confidence_employer": 5,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "tech_change_concern",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E08",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "10_plus",
+      "activity_field": "rd_activities",
+      "company_size": "1_9",
+      "education_level": "masters",
+      "certificates": [],
+      "education_role_match": 3,
+      "certificate_value": 3,
+      "training_support": 2,
+      "pay_fairness": 2,
+      "rights_compliance": 1,
+      "field_allowances": 3,
+      "wage_comparison": "not_informed",
+      "confidence_self": 4,
+      "confidence_employer": 2,
+      "confidence_sector": 1,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 1,
+      "mobility_willingness": 1,
+      "development_intent": 2,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "certificates",
+          "valueTr": "Diksiyon, Proje Yöneticiliği"
+        }
+      ],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "neutral",
+      "seniority": "senior",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E09",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "3_5",
+      "activity_field": "plant_services",
+      "company_size": "10_49",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 3,
+      "certificate_value": null,
+      "training_support": 3,
+      "pay_fairness": 1,
+      "rights_compliance": 2,
+      "field_allowances": 4,
+      "wage_comparison": "lower",
+      "confidence_self": 4,
+      "confidence_employer": 1,
+      "confidence_sector": 2,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 1,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "leave_sector",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E10",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "1_3",
+      "activity_field": "component_manufacturing",
+      "company_size": "10_49",
+      "education_level": "bachelors",
+      "certificates": [
+        "ohs"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 4,
+      "training_support": 3,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 4,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 2,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "limited_development",
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "early",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E11",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "50_149",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 3,
+      "training_support": 4,
+      "pay_fairness": 2,
+      "rights_compliance": 5,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 4,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 4,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": null,
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "Sektörün teorik içeriği, üretim imkanları"
+        }
+      ],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "neutral",
+      "seniority": "senior",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E12",
+      "age": "55_plus",
+      "gender": "female",
+      "experience": "10_plus",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "50_149",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 5,
+      "certificate_value": null,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 1,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 5,
+      "development_intent": 3,
+      "loyalty_factor": "no_policy_confidence",
+      "career_plan_5y": "leave_sector",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "senior",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E13",
+      "age": "18_24",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "installation_om",
+      "company_size": "1_9",
+      "education_level": "secondary",
+      "certificates": [
+        "ohs"
+      ],
+      "education_role_match": 2,
+      "certificate_value": 4,
+      "training_support": 5,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "not_informed",
+      "confidence_self": 3,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "normal_project_periods",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 3,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "misaligned",
+      "seniority": "mid",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E14",
+      "age": "18_24",
+      "gender": "male",
+      "experience": "1_3",
+      "activity_field": "installation_om",
+      "company_size": "1_9",
+      "education_level": "technical_high_school",
+      "certificates": [
+        "ohs",
+        "master_craftsman"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "no_difference",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "fringe_benefits",
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "early",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E15",
+      "age": "18_24",
+      "gender": "male",
+      "experience": "1_3",
+      "activity_field": "installation_om",
+      "company_size": "1_9",
+      "education_level": "technical_high_school",
+      "certificates": [
+        "ohs",
+        "master_craftsman"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "no_difference",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "fringe_benefits",
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "early",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E16",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "solar_thermal",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "ohs"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E17",
+      "age": "25_34",
+      "gender": "female",
+      "experience": "3_5",
+      "activity_field": "project_development",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 2,
+      "pay_fairness": 1,
+      "rights_compliance": 4,
+      "field_allowances": 4,
+      "wage_comparison": "similar",
+      "confidence_self": 3,
+      "confidence_employer": 3,
+      "confidence_sector": 2,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 4,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "limited_development",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E18",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "installation_om",
+      "company_size": "300_499",
+      "education_level": "bachelors",
+      "certificates": [
+        "ohs"
+      ],
+      "education_role_match": 3,
+      "certificate_value": null,
+      "training_support": 3,
+      "pay_fairness": 3,
+      "rights_compliance": 3,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 4,
+      "confidence_employer": 3,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 3,
+      "work_life_balance": 4,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": null,
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E19",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "installation_om",
+      "company_size": "500_plus",
+      "education_level": "masters",
+      "certificates": [
+        "vqa_pv"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 4,
+      "rights_compliance": 3,
+      "field_allowances": 4,
+      "wage_comparison": "higher",
+      "confidence_self": 4,
+      "confidence_employer": 3,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 3,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "fringe_benefits",
+      "career_plan_5y": "leave_sector",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "senior",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E20",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 4,
+      "training_support": 5,
+      "pay_fairness": 1,
+      "rights_compliance": 1,
+      "field_allowances": 1,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 3,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E21",
+      "age": "25_34",
+      "gender": "female",
+      "experience": "1_3",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 4,
+      "training_support": 4,
+      "pay_fairness": 2,
+      "rights_compliance": 3,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 4,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 2,
+      "development_intent": 4,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "early",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E22",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "150_299",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 2,
+      "certificate_value": null,
+      "training_support": 4,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "not_informed",
+      "confidence_self": 3,
+      "confidence_employer": 4,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 1,
+      "development_intent": 2,
+      "loyalty_factor": "tech_change_concern",
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "misaligned",
+      "seniority": "mid",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E23",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "1_3",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "masters",
+      "certificates": [
+        "ohs",
+        "manufacturer_training"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 3,
+      "training_support": 5,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "lower",
+      "confidence_self": 4,
+      "confidence_employer": 5,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 3,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": null,
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "Çalışıtığm firmanın uzun vadeli yatuırımlar yaparak geleceği garanti altına laması ve maaş ve yan haklarını sağlaması"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "early",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E24",
+      "age": "25_34",
+      "gender": "female",
+      "experience": "3_5",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "ohs",
+        "soft_skill"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 3,
+      "training_support": 5,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 2,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "Yenilenebilir Enerji'nin çevreye ve insanlara faydalı olduğu için"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E25",
+      "age": "35_44",
+      "gender": "prefer_not_say",
+      "experience": "5_10",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 1,
+      "certificate_value": 1,
+      "training_support": 5,
+      "pay_fairness": 2,
+      "rights_compliance": 4,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 4,
+      "confidence_employer": 4,
+      "confidence_sector": 2,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 3,
+      "work_life_balance": 3,
+      "mobility_willingness": 3,
+      "development_intent": 3,
+      "loyalty_factor": null,
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "Soru ve cevaplar uyuşmuyor"
+        }
+      ],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "misaligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E26",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "300_499",
+      "education_level": "bachelors",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "similar",
+      "confidence_self": 4,
+      "confidence_employer": 3,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E27",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "ekat",
+        "ohs"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 4,
+      "training_support": 5,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E28",
+      "age": "55_plus",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 3,
+      "training_support": 4,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 3,
+      "wage_comparison": "similar",
+      "confidence_self": 4,
+      "confidence_employer": 4,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 3,
+      "mobility_willingness": 4,
+      "development_intent": 3,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E29",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "inspection_certification",
+      "company_size": "500_plus",
+      "education_level": "masters",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E30",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "installation_om",
+      "company_size": "10_49",
+      "education_level": "bachelors",
+      "certificates": [
+        "vqa_pv"
+      ],
+      "education_role_match": 4,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "Dünya dışı kaynaktan gelen enerjinin elektriksel dönüşümündeki gelişim."
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "senior",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E31",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 4,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E32",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "installation_om",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "engineering_diploma"
+      ],
+      "education_role_match": 5,
+      "certificate_value": 5,
+      "training_support": 5,
+      "pay_fairness": 1,
+      "rights_compliance": 4,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 1,
+      "confidence_employer": 1,
+      "confidence_sector": 2,
+      "subcontractor_status": "risky_dependence",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 4,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E33",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "3_5",
+      "activity_field": "rd_activities",
+      "company_size": "150_299",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 4,
+      "certificate_value": null,
+      "training_support": 4,
+      "pay_fairness": 2,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "lower",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": null,
+      "career_plan_5y_multi": [
+        "managerial",
+        "current_role"
+      ],
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İlk hedef alacağım diğer proje ve ya görevin şuan yürütmekte olan görevimden bilgi ve tecrübemi üst seviyeye çıkartması ikincil hedef maaş ve yan haklar"
+        }
+      ],
+      "flags": [
+        "career_plan_5y_multiple_selection"
+      ],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E34",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "5_10",
+      "activity_field": "installation_om",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "ekat"
+      ],
+      "education_role_match": 3,
+      "certificate_value": null,
+      "training_support": 3,
+      "pay_fairness": 2,
+      "rights_compliance": 4,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 3,
+      "confidence_employer": 4,
+      "confidence_sector": 5,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 4,
+      "mobility_willingness": 1,
+      "development_intent": 5,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E35",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "inspection_certification",
+      "company_size": "300_499",
+      "education_level": "masters",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 4,
+      "training_support": 2,
+      "pay_fairness": 2,
+      "rights_compliance": 2,
+      "field_allowances": 2,
+      "wage_comparison": "similar",
+      "confidence_self": 2,
+      "confidence_employer": 2,
+      "confidence_sector": 3,
+      "subcontractor_status": "risky_dependence",
+      "clean_energy_satisfaction": 3,
+      "work_life_balance": 4,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "leave_sector",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E36",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "10_plus",
+      "activity_field": "project_development",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 5,
+      "certificate_value": null,
+      "training_support": 5,
+      "pay_fairness": 3,
+      "rights_compliance": 3,
+      "field_allowances": 3,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 3,
+      "confidence_sector": 4,
+      "subcontractor_status": "normal_project_periods",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 3,
+      "mobility_willingness": 3,
+      "development_intent": 5,
+      "loyalty_factor": null,
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "aligned",
+      "seniority": "senior",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E37",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "1_3",
+      "activity_field": "installation_om",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "ohs",
+        "master_craftsman"
+      ],
+      "education_role_match": 1,
+      "certificate_value": 2,
+      "training_support": 3,
+      "pay_fairness": 3,
+      "rights_compliance": 5,
+      "field_allowances": 4,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 3,
+      "confidence_sector": 2,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 4,
+      "mobility_willingness": 2,
+      "development_intent": 2,
+      "loyalty_factor": null,
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [
+        {
+          "question": "certificates",
+          "valueTr": "Ges kurulum kursu"
+        },
+        {
+          "question": "loyalty_factor",
+          "valueTr": "İş güvencesi eksikliği (işin sürekli olmaması, sözleşmelerin proje bazlı olması)"
+        }
+      ],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "misaligned",
+      "seniority": "early",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E38",
+      "age": "25_34",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "installation_om",
+      "company_size": "1_9",
+      "education_level": "bachelors",
+      "certificates": [
+        "ekat"
+      ],
+      "education_role_match": 1,
+      "certificate_value": 3,
+      "training_support": 2,
+      "pay_fairness": 1,
+      "rights_compliance": 4,
+      "field_allowances": 4,
+      "wage_comparison": "lower",
+      "confidence_self": 4,
+      "confidence_employer": 3,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 5,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "limited_development",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "misaligned",
+      "seniority": "mid",
+      "firm_scale": "micro"
+    },
+    {
+      "id": "E39",
+      "age": "18_24",
+      "gender": "male",
+      "experience": "3_5",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "150_299",
+      "education_level": "bachelors",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 1,
+      "certificate_value": 2,
+      "training_support": 4,
+      "pay_fairness": 1,
+      "rights_compliance": 3,
+      "field_allowances": 5,
+      "wage_comparison": "lower",
+      "confidence_self": 3,
+      "confidence_employer": 4,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 3,
+      "work_life_balance": 5,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "misaligned",
+      "seniority": "mid",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E40",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "5_10",
+      "activity_field": "rd_activities",
+      "company_size": "50_149",
+      "education_level": "doctorate",
+      "certificates": [
+        "ohs",
+        "manufacturer_training"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 5,
+      "training_support": 3,
+      "pay_fairness": 2,
+      "rights_compliance": 1,
+      "field_allowances": 1,
+      "wage_comparison": "similar",
+      "confidence_self": 3,
+      "confidence_employer": 3,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 5,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "leave_sector",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "mid",
+      "firm_scale": "small_mid"
+    },
+    {
+      "id": "E41",
+      "age": "35_44",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "150_299",
+      "education_level": "bachelors",
+      "certificates": [
+        "manufacturer_training"
+      ],
+      "education_role_match": 3,
+      "certificate_value": 4,
+      "training_support": 4,
+      "pay_fairness": 4,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 4,
+      "confidence_employer": 4,
+      "confidence_sector": 2,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 4,
+      "work_life_balance": 1,
+      "mobility_willingness": 5,
+      "development_intent": 3,
+      "loyalty_factor": "tech_change_concern",
+      "career_plan_5y": "managerial",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": true,
+      "education_match_band": "neutral",
+      "seniority": "senior",
+      "firm_scale": "large"
+    },
+    {
+      "id": "E42",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "10_plus",
+      "activity_field": "cell_panel_manufacturing",
+      "company_size": "500_plus",
+      "education_level": "bachelors",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 2,
+      "certificate_value": 5,
+      "training_support": 4,
+      "pay_fairness": 3,
+      "rights_compliance": 4,
+      "field_allowances": 4,
+      "wage_comparison": "similar",
+      "confidence_self": 4,
+      "confidence_employer": 3,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 4,
+      "mobility_willingness": 4,
+      "development_intent": 4,
+      "loyalty_factor": "tech_change_concern",
+      "career_plan_5y": "current_role",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "misaligned",
+      "seniority": "senior",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E43",
+      "age": "45_54",
+      "gender": "male",
+      "experience": "1_3",
+      "activity_field": "engineering_consultancy",
+      "company_size": "500_plus",
+      "education_level": "masters",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 4,
+      "certificate_value": null,
+      "training_support": 5,
+      "pay_fairness": 5,
+      "rights_compliance": 5,
+      "field_allowances": 5,
+      "wage_comparison": "similar",
+      "confidence_self": 5,
+      "confidence_employer": 5,
+      "confidence_sector": 4,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 5,
+      "work_life_balance": 2,
+      "mobility_willingness": 5,
+      "development_intent": 4,
+      "loyalty_factor": "limited_development",
+      "career_plan_5y": "new_technologies",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "early",
+      "firm_scale": "corporate"
+    },
+    {
+      "id": "E44",
+      "age": "35_44",
+      "gender": "female",
+      "experience": "5_10",
+      "activity_field": "rd_activities",
+      "company_size": "50_149",
+      "education_level": "doctorate",
+      "certificates": [
+        "none"
+      ],
+      "education_role_match": 5,
+      "certificate_value": null,
+      "training_support": 5,
+      "pay_fairness": 1,
+      "rights_compliance": 3,
+      "field_allowances": 3,
+      "wage_comparison": "lower",
+      "confidence_self": 2,
+      "confidence_employer": 3,
+      "confidence_sector": 3,
+      "subcontractor_status": "permanent_staff",
+      "clean_energy_satisfaction": 3,
+      "work_life_balance": 3,
+      "mobility_willingness": 5,
+      "development_intent": 1,
+      "loyalty_factor": "pay_lagging",
+      "career_plan_5y": "leave_sector",
+      "career_plan_5y_multi": null,
+      "_other": [],
+      "flags": [],
+      "has_certificate": false,
+      "education_match_band": "aligned",
+      "seniority": "mid",
+      "firm_scale": "small_mid"
+    }
+  ],
+  "employers": [
+    {
+      "id": "R01",
+      "main_activity_field": "engineering_consultancy",
+      "other_activity_fields": [
+        "software_digitalisation"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 8,
+      "annual_volume": "evsel günde 20 proje çizimi",
+      "international_share": "over_80",
+      "staff_dist_project_dev": "41_60",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "41_60",
+      "staff_dist_sales": "21_40",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "21_40",
+      "edu_dist_bachelor": "61_plus",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "21_30",
+      "turnover_project_specialist": "41_plus",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "41_plus",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "0_10",
+      "turnover_admin": "41_plus",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "61_plus",
+      "female_management": "61_plus",
+      "certified_performance": 5,
+      "poaching_frequency": 4,
+      "graduate_readiness": 1,
+      "regulatory_complexity": 1,
+      "outflow_other_sectors": 4,
+      "field_fatigue": 1,
+      "hardest_role": "manager_strategic",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence"
+      ],
+      "volume_headcount_relation": "rose_together",
+      "training_hours": "41_80",
+      "academia_collaboration": "internship_programmes",
+      "resignation_reason": "dissatisfaction",
+      "retention_methods": [
+        "career_development",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "energy_storage",
+        "smart_grid",
+        "end_of_life"
+      ],
+      "employment_change_2y": "increase_over_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "regulatory"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "micro",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R02",
+      "main_activity_field": "component_manufacturing",
+      "other_activity_fields": [
+        "installation_om",
+        "component_manufacturing",
+        "rd_activities"
+      ],
+      "years_operating": "12_15",
+      "total_employees": 60,
+      "annual_volume": "400 MWp/yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "21_40",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "21_40",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "41_60",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "11_20",
+      "turnover_rd_engineer": "21_30",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "0_10",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "21_40",
+      "female_management": "0_20",
+      "certified_performance": 4,
+      "poaching_frequency": 1,
+      "graduate_readiness": 5,
+      "regulatory_complexity": 4,
+      "outflow_other_sectors": 1,
+      "field_fatigue": 3,
+      "hardest_role": "rd_engineer",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence"
+      ],
+      "volume_headcount_relation": "rose_together",
+      "training_hours": "none",
+      "academia_collaboration": "none",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "project_engineering",
+        "sales",
+        "energy_storage"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "rd_focus"
+      ],
+      "_other": [
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Teşvikler"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R03",
+      "main_activity_field": "installation_om",
+      "other_activity_fields": [
+        "installation_om",
+        "plant_services"
+      ],
+      "years_operating": "8_11",
+      "total_employees": 45,
+      "annual_volume": "50",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "61_plus",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "0_20",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "41_60",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "0_10",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "41_60",
+      "employment_type_project": "61_plus",
+      "female_technical": "0_20",
+      "female_management": "0_20",
+      "certified_performance": 3,
+      "poaching_frequency": 3,
+      "graduate_readiness": 1,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 3,
+      "field_fatigue": 3,
+      "hardest_role": "manager_strategic",
+      "recruitment_barriers": [
+        "technical_competence",
+        "field_reluctance",
+        "language"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "17_40",
+      "academia_collaboration": "none",
+      "resignation_reason": "sector_change",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "flexible_working"
+      ],
+      "growth_tech_areas": [
+        "data_digitalisation",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_over_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "regulatory"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R04",
+      "main_activity_field": "cell_panel_manufacturing",
+      "other_activity_fields": [
+        "plant_investor"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 225,
+      "annual_volume": "800 MW/yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "61_plus",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "21_40",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "41_60",
+      "edu_dist_secondary": "41_60",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "11_20",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "21_40",
+      "employment_type_project": "41_60",
+      "female_technical": "21_40",
+      "female_management": "21_40",
+      "certified_performance": 3,
+      "poaching_frequency": 3,
+      "graduate_readiness": 3,
+      "regulatory_complexity": 4,
+      "outflow_other_sectors": 3,
+      "field_fatigue": 4,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "41_80",
+      "academia_collaboration": "internship_programmes",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "installation_om",
+        "sales",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "domestic_production",
+        "regulatory"
+      ],
+      "_other": [
+        {
+          "question": "other_activity_fields",
+          "valueTr": "Güneş Paneli ve Hücre Distribitörlüğü ve Tedariği"
+        },
+        {
+          "question": "retention_methods",
+          "valueTr": "İşin anlamı ve sosyal etki"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "large",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R05",
+      "main_activity_field": "software_digitalisation",
+      "other_activity_fields": [
+        "project_development",
+        "engineering_consultancy",
+        "installation_om",
+        "software_digitalisation",
+        "rd_activities"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 20,
+      "annual_volume": "Yaklaşık 150 MWh/yıl",
+      "international_share": "40_60",
+      "staff_dist_project_dev": "41_60",
+      "staff_dist_install": "21_40",
+      "staff_dist_manufacturing": "21_40",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "41_60",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "41_60",
+      "edu_dist_bachelor": "61_plus",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "21_30",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "11_20",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "21_40",
+      "female_management": "0_20",
+      "certified_performance": 5,
+      "poaching_frequency": 1,
+      "graduate_readiness": 5,
+      "regulatory_complexity": 2,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 2,
+      "hardest_role": "project_specialist",
+      "recruitment_barriers": [
+        "technical_competence"
+      ],
+      "volume_headcount_relation": "rose_together",
+      "training_hours": "0_16",
+      "academia_collaboration": "none",
+      "resignation_reason": "dissatisfaction",
+      "retention_methods": [
+        "salary_bonus",
+        "career_development",
+        "flexible_working"
+      ],
+      "growth_tech_areas": [
+        "project_engineering",
+        "installation_om",
+        "energy_storage"
+      ],
+      "employment_change_2y": "increase_over_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech"
+      ],
+      "_other": [
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Coğrafi Faaliyet Alanlarında Değişiklikler"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R06",
+      "main_activity_field": "installation_om",
+      "other_activity_fields": [
+        "engineering_consultancy",
+        "installation_om"
+      ],
+      "years_operating": "12_15",
+      "total_employees": 14,
+      "annual_volume": "20 MWp",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "21_40",
+      "staff_dist_install": "41_60",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "41_60",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "21_30",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "0_20",
+      "female_management": "0_20",
+      "certified_performance": 2,
+      "poaching_frequency": 2,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 4,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 2,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "17_40",
+      "academia_collaboration": "none",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "career_development",
+        "flexible_working",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "project_engineering",
+        "installation_om",
+        "energy_storage"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "regulatory"
+      ],
+      "_other": [
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Teşvikler"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R07",
+      "main_activity_field": "installation_om",
+      "other_activity_fields": [
+        "plant_investor",
+        "project_development",
+        "engineering_consultancy",
+        "installation_om",
+        "component_manufacturing"
+      ],
+      "years_operating": "8_11",
+      "total_employees": 15,
+      "annual_volume": "100 MWp/yıl",
+      "international_share": "40_60",
+      "staff_dist_project_dev": "21_40",
+      "staff_dist_install": "41_60",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "21_40",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "11_20",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "41_plus",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "0_20",
+      "employment_type_project": "61_plus",
+      "female_technical": "21_40",
+      "female_management": "21_40",
+      "certified_performance": 5,
+      "poaching_frequency": 3,
+      "graduate_readiness": 1,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 5,
+      "field_fatigue": 3,
+      "hardest_role": "project_specialist",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "41_80",
+      "academia_collaboration": "internship_programmes",
+      "resignation_reason": "career_uncertainty",
+      "retention_methods": [
+        "insurance_support"
+      ],
+      "growth_tech_areas": [
+        "smart_grid"
+      ],
+      "employment_change_2y": "decrease_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "regulatory"
+      ],
+      "_other": [
+        {
+          "question": "growth_tech_areas",
+          "valueTr": "Aslında, izlenen politikalar nedeniyle hiçbir alanda istihdamın yoğunlaşacağını düşünmüyorum."
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R08",
+      "main_activity_field": "engineering_consultancy",
+      "other_activity_fields": [
+        "project_development",
+        "cell_panel_manufacturing"
+      ],
+      "years_operating": "12_15",
+      "total_employees": 150,
+      "annual_volume": "1500 MWp/yık",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "41_60",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "21_40",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "21_40",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "41_60",
+      "edu_dist_bachelor": "61_plus",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "11_20",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "21_30",
+      "turnover_entry_engineer": "21_30",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "21_30",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "41_60",
+      "female_management": "21_40",
+      "certified_performance": 3,
+      "poaching_frequency": 5,
+      "graduate_readiness": 1,
+      "regulatory_complexity": 3,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 4,
+      "hardest_role": "manager_strategic",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "field_reluctance",
+        "language"
+      ],
+      "volume_headcount_relation": "rose_together",
+      "training_hours": "81_plus",
+      "academia_collaboration": "internship_programmes",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "project_engineering",
+        "manufacturing",
+        "energy_storage"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "large",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R09",
+      "main_activity_field": "cell_panel_manufacturing",
+      "other_activity_fields": [
+        "cell_panel_manufacturing"
+      ],
+      "years_operating": "0_3",
+      "total_employees": 145,
+      "annual_volume": "250 mwp/yil",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "61_plus",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "41_60",
+      "edu_dist_primary": "41_60",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "11_20",
+      "turnover_rd_engineer": "11_20",
+      "turnover_project_technical": "21_30",
+      "turnover_entry_engineer": "21_30",
+      "turnover_technician": "31_40",
+      "turnover_field_worker": "31_40",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "21_40",
+      "female_management": "21_40",
+      "certified_performance": 4,
+      "poaching_frequency": 5,
+      "graduate_readiness": 3,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 3,
+      "field_fatigue": 3,
+      "hardest_role": "project_technical",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "flat_flat_rose",
+      "training_hours": "17_40",
+      "academia_collaboration": "none",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "manufacturing"
+      ],
+      "employment_change_2y": "increase_over_25",
+      "employment_change_drivers": [
+        "investment_speed"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "11_20",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R10",
+      "main_activity_field": "installation_om",
+      "other_activity_fields": [
+        "project_development",
+        "engineering_consultancy",
+        "installation_om"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 5,
+      "annual_volume": "5 MWp /yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "21_40",
+      "staff_dist_install": "61_plus",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "0_20",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "61_plus",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "11_20",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "0_20",
+      "female_management": "0_20",
+      "certified_performance": 4,
+      "poaching_frequency": 1,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 4,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "fell_flat_rose",
+      "training_hours": "0_16",
+      "academia_collaboration": "guaranteed_employment",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "flexible_working",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "project_engineering",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "regulatory"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "micro",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R11",
+      "main_activity_field": "component_manufacturing",
+      "other_activity_fields": [
+        "project_development",
+        "component_manufacturing",
+        "software_digitalisation"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 64,
+      "annual_volume": "10 MWp/yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "21_40",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "41_60",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "41_60",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "11_20",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "21_30",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "21_40",
+      "female_management": "41_60",
+      "certified_performance": 4,
+      "poaching_frequency": 2,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 4,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 4,
+      "hardest_role": "field_worker",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "language"
+      ],
+      "volume_headcount_relation": "fell_flat_rose",
+      "training_hours": "0_16",
+      "academia_collaboration": "kosgeb_iskur",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "installation_om",
+        "data_digitalisation",
+        "energy_storage"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "regulatory"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R12",
+      "main_activity_field": "plant_services",
+      "other_activity_fields": [
+        "plant_services"
+      ],
+      "years_operating": "8_11",
+      "total_employees": 8,
+      "annual_volume": "2500",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "61_plus",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "61_plus",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "0_10",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "21_40",
+      "female_management": "0_20",
+      "certified_performance": 5,
+      "poaching_frequency": 1,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 3,
+      "hardest_role": "project_specialist",
+      "recruitment_barriers": [
+        "technical_competence",
+        "geographic",
+        "language"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "41_80",
+      "academia_collaboration": "commercial_courses",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "installation_om",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_over_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "domestic_production"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "micro",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R13",
+      "main_activity_field": "project_development",
+      "other_activity_fields": [
+        "plant_investor",
+        "engineering_consultancy",
+        "installation_om",
+        "plant_services",
+        "software_digitalisation",
+        "rd_activities"
+      ],
+      "years_operating": "8_11",
+      "total_employees": 12,
+      "annual_volume": "15 MWp/yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "41_60",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "0_20",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "61_plus",
+      "edu_dist_primary": "61_plus",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "21_30",
+      "turnover_rd_engineer": "21_30",
+      "turnover_project_technical": "21_30",
+      "turnover_entry_engineer": "41_plus",
+      "turnover_technician": "31_40",
+      "turnover_field_worker": "41_plus",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "41_60",
+      "female_technical": "0_20",
+      "female_management": "0_20",
+      "certified_performance": 4,
+      "poaching_frequency": 1,
+      "graduate_readiness": 1,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 4,
+      "field_fatigue": 3,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "0_16",
+      "academia_collaboration": "none",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "flexible_working",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "data_digitalisation",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "decrease_over_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "regulatory"
+      ],
+      "_other": [
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Altyapı ve kapasite yetersizliği"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "21_30",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R14",
+      "main_activity_field": "engineering_consultancy",
+      "other_activity_fields": [
+        "plant_investor",
+        "project_development",
+        "engineering_consultancy",
+        "installation_om"
+      ],
+      "years_operating": "8_11",
+      "total_employees": 52,
+      "annual_volume": "500 MWp/yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "41_60",
+      "staff_dist_install": "41_60",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "21_40",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "41_60",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "21_30",
+      "turnover_project_specialist": "21_30",
+      "turnover_rd_engineer": "41_plus",
+      "turnover_project_technical": "11_20",
+      "turnover_entry_engineer": "41_plus",
+      "turnover_technician": "21_30",
+      "turnover_field_worker": "31_40",
+      "turnover_admin": "21_30",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "41_60",
+      "female_technical": "0_20",
+      "female_management": "0_20",
+      "certified_performance": 2,
+      "poaching_frequency": 3,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 2,
+      "outflow_other_sectors": 1,
+      "field_fatigue": 5,
+      "hardest_role": "field_worker",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "language"
+      ],
+      "volume_headcount_relation": "rose_together",
+      "training_hours": "17_40",
+      "academia_collaboration": "none",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "flexible_working"
+      ],
+      "growth_tech_areas": [
+        "installation_om",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "domestic_production"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "21_30",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R15",
+      "main_activity_field": "cell_panel_manufacturing",
+      "other_activity_fields": [
+        "plant_investor",
+        "cell_panel_manufacturing"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 200,
+      "annual_volume": "500 Mwp",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "61_plus",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "21_40",
+      "edu_dist_primary": "21_40",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "11_20",
+      "turnover_technician": "31_40",
+      "turnover_field_worker": "21_30",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "21_40",
+      "female_technical": "41_60",
+      "female_management": "0_20",
+      "certified_performance": 3,
+      "poaching_frequency": 3,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 3,
+      "field_fatigue": 3,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "41_80",
+      "academia_collaboration": "internship_programmes",
+      "resignation_reason": "sector_change",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "data_digitalisation",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "storage_new_tech",
+        "domestic_production",
+        "regulatory"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "large",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R16",
+      "main_activity_field": "plant_investor",
+      "other_activity_fields": [
+        "cell_panel_manufacturing"
+      ],
+      "years_operating": "12_15",
+      "total_employees": 650,
+      "annual_volume": "2GW",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "41_60",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "0_20",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "21_40",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "11_20",
+      "turnover_project_specialist": "11_20",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "11_20",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "31_40",
+      "turnover_admin": "11_20",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "0_20",
+      "female_management": "0_20",
+      "certified_performance": 4,
+      "poaching_frequency": 4,
+      "graduate_readiness": 3,
+      "regulatory_complexity": 3,
+      "outflow_other_sectors": 4,
+      "field_fatigue": 3,
+      "hardest_role": "field_worker",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "volume_rose_headcount_flat_fell",
+      "training_hours": "0_16",
+      "academia_collaboration": "internship_programmes",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "manufacturing",
+        "data_digitalisation",
+        "smart_grid"
+      ],
+      "employment_change_2y": "decrease_0_25",
+      "employment_change_drivers": [
+        "investment_speed"
+      ],
+      "_other": [
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Teşvikler"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "corporate",
+      "turnover_mean_band": "11_20",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R17",
+      "main_activity_field": "cell_panel_manufacturing",
+      "other_activity_fields": [
+        "plant_investor",
+        "engineering_consultancy",
+        "installation_om",
+        "plant_services",
+        "cell_panel_manufacturing",
+        "component_manufacturing",
+        "software_digitalisation"
+      ],
+      "years_operating": "12_15",
+      "total_employees": 450,
+      "annual_volume": "1000 MWp/Yıl, 1.600.000 panel/Yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "41_60",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "21_40",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "21_40",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "11_20",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "11_20",
+      "turnover_entry_engineer": "11_20",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "31_40",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "21_40",
+      "female_technical": "41_60",
+      "female_management": "21_40",
+      "certified_performance": 5,
+      "poaching_frequency": 3,
+      "graduate_readiness": 5,
+      "regulatory_complexity": 2,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 4,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "geographic",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "fell_together",
+      "training_hours": "81_plus",
+      "academia_collaboration": "mone_iskur",
+      "resignation_reason": "work_life_balance",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "company_culture"
+      ],
+      "growth_tech_areas": [
+        "manufacturing",
+        "data_digitalisation",
+        "energy_storage"
+      ],
+      "employment_change_2y": "stable",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech"
+      ],
+      "_other": [
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Teşvikler"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "large",
+      "turnover_mean_band": "11_20",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R18",
+      "main_activity_field": "cell_panel_manufacturing",
+      "other_activity_fields": [
+        "engineering_consultancy",
+        "installation_om",
+        "cell_panel_manufacturing"
+      ],
+      "years_operating": "8_11",
+      "total_employees": 69,
+      "annual_volume": "400 MWp",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "0_20",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "41_60",
+      "staff_dist_admin": "0_20",
+      "staff_dist_sales": "0_20",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "41_60",
+      "edu_dist_associate": "0_20",
+      "edu_dist_secondary": "21_40",
+      "edu_dist_primary": "21_40",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "0_10",
+      "turnover_rd_engineer": "0_10",
+      "turnover_project_technical": "0_10",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "0_10",
+      "turnover_field_worker": "0_10",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "0_20",
+      "female_technical": "21_40",
+      "female_management": "41_60",
+      "certified_performance": 4,
+      "poaching_frequency": 2,
+      "graduate_readiness": 2,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 1,
+      "field_fatigue": 4,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "field_reluctance",
+        "language"
+      ],
+      "volume_headcount_relation": "fell_flat_rose",
+      "training_hours": "41_80",
+      "academia_collaboration": "none",
+      "resignation_reason": "work_life_balance",
+      "retention_methods": [
+        "career_development",
+        "flexible_working"
+      ],
+      "growth_tech_areas": [
+        "installation_om",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "increase_0_25",
+      "employment_change_drivers": [
+        "investment_speed",
+        "regulatory"
+      ],
+      "_other": [
+        {
+          "question": "retention_methods",
+          "valueTr": "İşin anlamı ve sosyal etki"
+        },
+        {
+          "question": "employment_change_drivers",
+          "valueTr": "Teşvikler"
+        }
+      ],
+      "flags": [],
+      "employee_count_band": "small_mid",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": true
+    },
+    {
+      "id": "R19",
+      "main_activity_field": "installation_om",
+      "other_activity_fields": [
+        "plant_investor",
+        "engineering_consultancy"
+      ],
+      "years_operating": "12_15",
+      "total_employees": 8,
+      "annual_volume": "500 MWp/yıl",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "61_plus",
+      "staff_dist_install": "61_plus",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "41_60",
+      "staff_dist_sales": "41_60",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "41_60",
+      "edu_dist_associate": "41_60",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "0_10",
+      "turnover_project_specialist": "21_30",
+      "turnover_rd_engineer": "21_30",
+      "turnover_project_technical": "21_30",
+      "turnover_entry_engineer": "41_plus",
+      "turnover_technician": "31_40",
+      "turnover_field_worker": "31_40",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "61_plus",
+      "employment_type_project": "41_60",
+      "female_technical": "0_20",
+      "female_management": "21_40",
+      "certified_performance": 1,
+      "poaching_frequency": 3,
+      "graduate_readiness": 1,
+      "regulatory_complexity": 5,
+      "outflow_other_sectors": 1,
+      "field_fatigue": 3,
+      "hardest_role": "technician_operator",
+      "recruitment_barriers": [
+        "pay_expectations",
+        "technical_competence",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "flat_fell",
+      "training_hours": "0_16",
+      "academia_collaboration": "none",
+      "resignation_reason": "higher_pay",
+      "retention_methods": [
+        "salary_bonus",
+        "insurance_support",
+        "flexible_working"
+      ],
+      "growth_tech_areas": [
+        "project_engineering",
+        "installation_om",
+        "energy_storage"
+      ],
+      "employment_change_2y": "stable",
+      "employment_change_drivers": [
+        "investment_speed",
+        "storage_new_tech",
+        "regulatory"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "micro",
+      "turnover_mean_band": "21_30",
+      "is_manufacturer": false
+    },
+    {
+      "id": "R20",
+      "main_activity_field": "software_digitalisation",
+      "other_activity_fields": [
+        "rd_activities"
+      ],
+      "years_operating": "4_7",
+      "total_employees": 7,
+      "annual_volume": "500 MWp",
+      "international_share": "under_20",
+      "staff_dist_project_dev": "41_60",
+      "staff_dist_install": "0_20",
+      "staff_dist_manufacturing": "0_20",
+      "staff_dist_admin": "21_40",
+      "staff_dist_sales": "41_60",
+      "edu_dist_doctorate": "0_20",
+      "edu_dist_postgrad": "0_20",
+      "edu_dist_bachelor": "0_20",
+      "edu_dist_associate": "21_40",
+      "edu_dist_secondary": "0_20",
+      "edu_dist_primary": "0_20",
+      "turnover_manager": "21_30",
+      "turnover_project_specialist": "21_30",
+      "turnover_rd_engineer": "11_20",
+      "turnover_project_technical": "21_30",
+      "turnover_entry_engineer": "0_10",
+      "turnover_technician": "11_20",
+      "turnover_field_worker": "0_10",
+      "turnover_admin": "0_10",
+      "employment_type_permanent": "41_60",
+      "employment_type_project": "21_40",
+      "female_technical": "21_40",
+      "female_management": "0_20",
+      "certified_performance": 4,
+      "poaching_frequency": 4,
+      "graduate_readiness": 3,
+      "regulatory_complexity": 2,
+      "outflow_other_sectors": 2,
+      "field_fatigue": 3,
+      "hardest_role": "project_specialist",
+      "recruitment_barriers": [
+        "technical_competence",
+        "geographic",
+        "field_reluctance"
+      ],
+      "volume_headcount_relation": "flat_fell",
+      "training_hours": "17_40",
+      "academia_collaboration": "none",
+      "resignation_reason": "career_uncertainty",
+      "retention_methods": [
+        "salary_bonus",
+        "flexible_working"
+      ],
+      "growth_tech_areas": [
+        "data_digitalisation",
+        "energy_storage",
+        "smart_grid"
+      ],
+      "employment_change_2y": "decrease_0_25",
+      "employment_change_drivers": [
+        "investment_speed"
+      ],
+      "_other": [],
+      "flags": [],
+      "employee_count_band": "micro",
+      "turnover_mean_band": "0_10",
+      "is_manufacturer": false
+    }
+  ],
+  "strategyMatrix": []
+}
