@@ -1,0 +1,33 @@
+/*
+ * SolarHub Employment Explorer — design tokens (BuildSpec v1.1 §5.1).
+ * This is the single file to swap during Lovable transfer: edit values here
+ * to match the live horizonsolarhub.eu palette; nothing else needs touching.
+ */
+:root {
+  --sh-solar:      #F2A900;  /* primary accent — solar amber */
+  --sh-deep:       #0B2A4A;  /* headline navy */
+  --sh-teal:       #1B7F79;  /* secondary — employer series */
+  --sh-sand:       #F7F4EE;  /* page background */
+  --sh-ink:        #14181D;  /* body text */
+  --sh-muted:      #6B7280;  /* secondary text */
+  --sh-rule:       #E2DED6;  /* borders and dividers */
+  --sh-surface:    #FFFFFF;  /* card background */
+
+  /* Diverging Likert scale — must remain legible in greyscale print */
+  --sh-lik-1:      #B3402F;  /* strongly disagree */
+  --sh-lik-2:      #DC8A6E;
+  --sh-lik-3:      #D9D3C7;  /* neutral */
+  --sh-lik-4:      #7FB2A6;
+  --sh-lik-5:      #1B7F79;  /* strongly agree */
+
+  --sh-employee:   #F2A900;  /* employee series throughout */
+  --sh-employer:   #1B7F79;  /* employer series throughout */
+
+  /* Derived shades used for within-dataset ordinal ramps and stacked
+   * agreement segments. Anchored on the brand hues above; regenerate if
+   * the anchors change. */
+  --sh-employee-soft: #F6CE74;   /* amber 55% tint — the "agree (4)" segment */
+  --sh-employer-soft: #7FB2A6;   /* teal tint — employer "agree (4)" segment */
+  --sh-alert:         #B3402F;   /* alert accent (reuses lik-1) */
+  --sh-warn-bg:       #FBF3DC;   /* amber badge background */
+}

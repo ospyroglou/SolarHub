@@ -1,0 +1,123 @@
+@import './styles/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Scoped base styles for the feature root (BuildSpec §11: no global resets;
+ * Tailwind Preflight is disabled in tailwind.config.ts). Everything the
+ * explorer needs is set on .sh-explorer, which also wraps portalled content
+ * such as the filter drawer. The rules live in the base layer and use
+ * :where() so Tailwind utility classes always win over these resets.
+ */
+@layer base {
+  .sh-explorer {
+    /* §2: no external font CDN — system stack only. */
+    font-family:
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      'Helvetica Neue',
+      Arial,
+      sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--sh-ink);
+    background-color: var(--sh-sand);
+    margin: 0;
+  }
+
+  /*
+   * Preflight is disabled, so Tailwind's border groundwork is recreated
+   * here, scoped: border-* utilities only set widths and rely on a solid
+   * zero-width default on every element.
+   */
+  .sh-explorer,
+  .sh-explorer :where(*),
+  .sh-explorer :where(*)::before,
+  .sh-explorer :where(*)::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--sh-rule);
+  }
+
+  .sh-explorer :where(h1, h2, h3, h4, p, figure, ul, ol, fieldset) {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sh-explorer :where(ul, ol) {
+    list-style: none;
+  }
+
+  .sh-explorer :where(button) {
+    font: inherit;
+    color: inherit;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .sh-explorer :where(a) {
+    color: inherit;
+  }
+
+  .sh-explorer :where(table) {
+    border-collapse: collapse;
+  }
+}
+
+/* §5.2: tabular figures for all statistics. */
+.sh-explorer .sh-num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Visible focus rings throughout (§8). */
+.sh-explorer :focus-visible {
+  outline: 2px solid var(--sh-deep);
+  outline-offset: 2px;
+}
+
+/*
+ * Motion (§5.3): 200 ms ease-out on filter changes; entry reveal fires once.
+ * Everything collapses to no-motion under prefers-reduced-motion.
+ */
+.sh-anim {
+  transition:
+    width 200ms ease-out,
+    x 200ms ease-out,
+    opacity 200ms ease-out,
+    transform 200ms ease-out;
+}
+
+.sh-reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 400ms ease-out,
+    transform 400ms ease-out;
+}
+
+.sh-reveal.sh-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sh-explorer *,
+  .sh-explorer *::before,
+  .sh-explorer *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .sh-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
