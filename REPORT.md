@@ -84,6 +84,15 @@ UI decision, but the ladder module should not hard-code "78".
    43). (Also: the spec says Q23 "returned 15 distinct values"; the
    analysed sheet has 14 distinct values plus one blank.)
 
+   *Build-stage addendum:* module §6.7 (Expectation Asymmetry) requires
+   the pay → job security → development ranking, so the UI layer counts
+   the seven identically worded quarantined responses as a "Job security"
+   theme (`JOB_SECURITY_TR` in
+   `src/features/employment-explorer/lib/module-data.ts`, unit-tested,
+   footnoted in the module). The ETL contract is untouched — the records
+   stay quarantined in `_other`; once the 7th option is signed off, the
+   dictionary change makes this bridge constant obsolete.
+
 4. **Employer activity fields are absent from the §4 dictionary.** §4.2
    lists no option set for `main_activity_field` / `other_activity_fields`,
    and the employer form used two options the employee form (§4.1) lacks:
